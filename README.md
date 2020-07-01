@@ -1,4 +1,6 @@
-# Global Mobilization enhancement
+<p align="center">
+    # Global Mobilization Enhancement
+</p>
 
 <p align="center">
     <a href="https://github.com/vpzbrig21/gme/releases/latest">
