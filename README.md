@@ -1,5 +1,5 @@
 <p align="center">
-    # Global Mobilization Enhancement
+    Global Mobilization Enhancement
 </p>
 
 <p align="center">
