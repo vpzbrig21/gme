@@ -5,7 +5,7 @@ class CfgVehicles {
 	class gm_wheeled_motorcycle_base;
 	class gm_wheeled_truck_base;
 	class gm_wheeled_apc_base;
-	
+
 	class gm_tracked_base;
 	class gm_tracked_apc_base;
 	class gm_tracked_tank_base;
@@ -427,8 +427,8 @@ class CfgVehicles {
 		};
 	};
 	class gm_do28d2_base: gm_plane_base {};
-	
-	/* West Special *//
+
+	/* West Special */
 	class gm_m113a1g_base: gm_m113_base {};
 	class gm_m113a1g_command_base: gm_m113a1g_base {
 		class AcreIntercoms {

@@ -1,5 +1,5 @@
-#define COMPONENT blank
-#define COMPONENT_BEAUTIFIED Blank
+#define COMPONENT ace3
+#define COMPONENT_BEAUTIFIED ace3
 #include "\z\gme\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
