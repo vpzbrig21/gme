@@ -1,7 +1,7 @@
 class CfgVehicles {
     class gm_wheeled_car_base;
     class gm_iltis_base: gm_wheeled_car_base {
-        fuelCapacity = "800 * 0.165"
+        fuelCapacity = "800 * 0.165";
         ace_refuel_fuelCapacity = 85;
         ace_refuel_canReceive = 1;
         ace_refuel_flowRate = 1;
