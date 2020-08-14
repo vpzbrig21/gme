@@ -9,7 +9,7 @@ class CfgVehicles {
             class Intercom_1 {
                 displayName = "Crew intercom";
                 shortName = "Crew";
-                allowedPositions[] = {"crew"};
+                allowedPositions[] = {"crew",{"ffv", "all"}};
                 disabledPositions[] = {};
                 limitedPositions[] = {{"cargo", "all"}};
                 numLimitedPositions = 1;
@@ -19,7 +19,7 @@ class CfgVehicles {
             class Intercom_2: Intercom_1 {
                 displayName = "Pax intercom";
                 shortName = "Pax";
-                allowedPositions[] = {"crew", {"cargo", "all"}};
+                allowedPositions[] = {"crew", {"cargo", "all"}, {"ffv", "all"}};
                 limitedPositions[] = {};
                 numLimitedPositions = 0;
                 connectedByDefault = 0;
@@ -28,6 +28,18 @@ class CfgVehicles {
     };
     class gm_fuchsa0_base;
     class gm_fuchsa0_command_base: gm_fuchsa0_base {
+        class AcreIntercoms {
+            class Intercom_1 {
+                displayName = "Crew intercom";
+                shortName = "Crew";
+                allowedPositions[] = {"crew", {"cargo", "all"}, {"ffv", "all"}};
+                disabledPositions[] = {};
+                limitedPositions[] = {};
+                numLimitedPositions = 1;
+                masterPositions[] = {};
+                connectedByDefault = 1;
+            };
+        };
         class AcreRacks {
             class Rack_1 {
                 displayName = "Rack 1";
