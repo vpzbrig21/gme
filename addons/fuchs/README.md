@@ -1,7 +1,7 @@
 gme_fuchs
 ===================
 
-Add ACRE2 and ACE Features to the Fuchs.
+Adds ACRE2 and ACE Features to the Fuchs.
 
 
 ## Maintainers

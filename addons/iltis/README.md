@@ -1,7 +1,7 @@
-gme_blank
+gme_iltis
 ===================
 
-Adds blank feature.
+Adds ACRE2 and ACE Features to the Fuchs.
 
 
 ## Maintainers
