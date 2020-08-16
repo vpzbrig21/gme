@@ -59,7 +59,7 @@ class gm_VehicleInsignias_Unit: gm_VehicleInsignias_base {
 		picture = "z\gme\addons\main\data\systems\vehicleMarkings\insignias\crest\gme_ge_pzbtl363_col_ca.paa";
 	};
     class gme_units_ge_pzgrenbtl401_col {
-		name = "PzBtl 363";
+		name = "PzGrenBtl 401";
 		author = "ingametek";
 		texture = "z\gme\addons\main\data\systems\vehicleMarkings\insignias\crest\gme_ge_pzgrenbtl401_col_ca.paa";
 		value = "gme_units_ge_pzgrenbtl401_col";
