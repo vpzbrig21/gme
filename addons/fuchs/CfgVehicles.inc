@@ -13,7 +13,7 @@ class CfgVehicles {
                 disabledPositions[] = {};
                 limitedPositions[] = {{"cargo", "all"}};
                 numLimitedPositions = 1;
-                masterPositions[] = {"commander"};
+                masterPositions[] = {};
                 connectedByDefault = 1;
             };
             class Intercom_2: Intercom_1 {
@@ -45,7 +45,7 @@ class CfgVehicles {
                 displayName = "Rack 1";
                 shortName = "R1";
                 componentName = "ACRE_VRC103";
-                allowedPositions[] = {"crew"};
+                allowedPositions[] = {"crew", {"cargo", "all"}, {"ffv", "all"}};
                 disabledPositions[] = {};
                 defaultComponents[] = {};
                 mountedRadio = "ACRE_PRC117F";
@@ -56,7 +56,7 @@ class CfgVehicles {
                 displayName = "Rack 2";
                 shortName = "R2";
                 componentName = "ACRE_VRC103";
-                allowedPositions[] = {"crew"};
+                allowedPositions[] = {"crew", {"cargo", "all"}, {"ffv", "all"}};
                 disabledPositions[] = {};
                 defaultComponents[] = {};
                 mountedRadio = "ACRE_PRC117F";
