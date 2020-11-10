@@ -5,6 +5,7 @@ class CfgVehicles {
         ace_refuel_fuelCapacity = 390;
 		ace_refuel_canReceive = 1;
 		ace_refuel_flowRate = 1;
+        acre_hasInfantryPhone = 0;
         class AcreIntercoms {
             class Intercom_1 {
                 displayName = "Crew intercom";
@@ -35,7 +36,7 @@ class CfgVehicles {
                 allowedPositions[] = {"crew", {"cargo", "all"}, {"ffv", "all"}};
                 disabledPositions[] = {};
                 limitedPositions[] = {};
-                numLimitedPositions = 1;
+                numLimitedPositions = 0;
                 masterPositions[] = {};
                 connectedByDefault = 1;
             };
@@ -45,7 +46,7 @@ class CfgVehicles {
                 displayName = "Rack 1";
                 shortName = "R1";
                 componentName = "ACRE_VRC103";
-                allowedPositions[] = {"crew", {"cargo", "all"}, {"ffv", "all"}};
+                allowedPositions[] = {"crew", {"cargo", "all"}};
                 disabledPositions[] = {};
                 defaultComponents[] = {};
                 mountedRadio = "ACRE_PRC117F";
@@ -56,7 +57,7 @@ class CfgVehicles {
                 displayName = "Rack 2";
                 shortName = "R2";
                 componentName = "ACRE_VRC103";
-                allowedPositions[] = {"crew", {"cargo", "all"}, {"ffv", "all"}};
+                allowedPositions[] = {"crew", {"cargo", "all"}};
                 disabledPositions[] = {};
                 defaultComponents[] = {};
                 mountedRadio = "ACRE_PRC117F";
@@ -67,7 +68,7 @@ class CfgVehicles {
                 displayName = "Rack 3";
                 shortName = "R3";
                 componentName = "ACRE_VRC103";
-                allowedPositions[] = {"crew"};
+                allowedPositions[] = {"crew", {"cargo", "all"}};
                 disabledPositions[] = {};
                 defaultComponents[] = {};
                 mountedRadio = "ACRE_PRC117F";
