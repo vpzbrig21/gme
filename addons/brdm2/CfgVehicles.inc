@@ -1,4 +1,4 @@
-class CfgVehicles.inc {
+class CfgVehicles {
 	class gm_wheeled_APC_base;
 	class gm_brdm2_base: gm_wheeled_APC_base {
 		fuelCapacity = "750 * 0.165";
