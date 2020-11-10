@@ -6,10 +6,12 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"gme_main","gm_vehicles_land_wheeled_ot64"};
+        requiredAddons[] = {"gme_main"};
         author = ECSTRING(main,GMETeam);
         authors[] = {""};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };
+
+#include "CfgVehicles.inc"
