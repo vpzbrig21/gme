@@ -1,7 +1,9 @@
 gme_ammo
 ===================
 
-Adds ACE3 features to Ammo and Magazines.
+* MG3/PKP ACE3 belt ammo (Belt linking)
+* DM51/DM51A1 practice no ACE3 fragmentation
+* DM51/DM51A1 concussion no ACE3 fragmentation
 
 
 ## Maintainers
