@@ -2,7 +2,7 @@ gme_weapons
 ===================
 
 * MG3/PKP barrel swap
-* Carl Gustav 3rd party relaod
+* Carl Gustav 3rd party reload
 
 
 ## Maintainers
