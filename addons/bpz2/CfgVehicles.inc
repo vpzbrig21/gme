@@ -4,9 +4,10 @@ class CfgVehicles {
 		ace_refuel_fuelCapacity = 955;
         ace_refuel_canReceive = 1;
         ace_refuel_flowRate = 1;
-		ace_repair_canRepair = 1;
 		ace_cargo_hasCargo = 1;
 		ace_cargo_space = 12;
+        ace_repair_canRepair = 1;
+        transportRepair = 0;
 		fuelCapacity = "600 * 0.165";
         class AcreIntercoms {
             class Intercom_1 {
