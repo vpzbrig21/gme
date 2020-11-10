@@ -1,7 +1,8 @@
 gme_weapons
 ===================
 
-Adds ACE Ballistics and functions to Weapons.
+* MG3/PKP barrel swap
+* Carl Gustav 3rd party relaod
 
 
 ## Maintainers
