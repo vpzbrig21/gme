@@ -2,7 +2,7 @@ class CfgMods {
     class PREFIX {
         author = "GME Team";
         dir = "@gme";
-        name = "GME v1.1.23";
+        name = "GME v1.2.0";
         picture = "gme\addons\main\logo_gme_ca.paa";
         hidePicture = 1;
         hideName = 1;

@@ -1,8 +1,8 @@
-name = "Global Mobilization Enhancement 1.1.23";
+name = "Global Mobilization Enhancement 1.2.0";
 picture = "logo_gme_ca.paa";
 actionName = "GitHub";
 action = "https://github.com/vpzbrig21/gme";
-description = "GME - Version 1.1.23";
+description = "GME - Version 1.2.0";
 logo = "logo_gme_ca.paa";
 logoOver = "logo_gme_ca.paa";
 tooltip = "GME";
