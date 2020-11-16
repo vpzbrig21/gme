@@ -1,7 +1,7 @@
 class CfgVehicles {
 	class gm_tracked_Tank_base;
 	class gm_pt76_base: gm_tracked_Tank_base {
-		fuelCapacity = "400 * 0.165";
+		fuelCapacity = "340 * 0.165";
         ace_refuel_fuelCapacity = 250;
 		ace_refuel_canReceive = 1;
 		ace_refuel_flowRate = 1;
@@ -42,4 +42,8 @@ class CfgVehicles {
             };
         };
 	};
+    class gm_pt76b_base: gm_pt76_base {
+        fuelCapacity = "480 * 0.165";
+        ace_refuel_fuelCapacity = 310;
+    };
 };

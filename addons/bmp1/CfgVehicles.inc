@@ -2,7 +2,7 @@ class CfgVehicles {
     class gm_tracked_APC_base;
     class gm_bmp1_base: gm_tracked_APC_base {
         fuelCapacity = "600 * 0.165";
-        ace_refuel_fuelCapacity = 462;
+        ace_refuel_fuelCapacity = 460;
 		ace_refuel_canReceive = 1;
 		ace_refuel_flowRate = 1;
         class AcreIntercoms {
@@ -41,5 +41,9 @@ class CfgVehicles {
                 intercom[] = {"Intercom_1"};
             };
         };
+    };
+    class gm_bmp1sp2_base: gm_bmp1_base {
+        fuelCapacity = "575 * 0.165";
+        ace_refuel_fuelCapacity = 460;
     };
 };

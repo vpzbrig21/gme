@@ -2,7 +2,7 @@ class CfgVehicles {
 	class gm_tracked_Tank_base;
 	class gm_t55_base: gm_tracked_Tank_base {
 		fuelCapacity = "650 * 0.165";
-        ace_refuel_fuelCapacity = 960;
+        ace_refuel_fuelCapacity = 1360;
 		ace_refuel_canReceive = 1;
 		ace_refuel_flowRate = 1;
 		class AcreIntercoms {
@@ -42,4 +42,20 @@ class CfgVehicles {
             };
         };
 	};
+    class gm_t55a_base: gm_t55_base {
+        fuelCapacity = "650 * 0.165";
+        ace_refuel_fuelCapacity = 1360;
+    };
+    class gm_t55am1_base: gm_t55a_base {
+        fuelCapacity = "650 * 0.165";
+        ace_refuel_fuelCapacity = 1360;
+    };
+    class gm_t55am2_base: gm_t55am1_base {
+        fuelCapacity = "545 * 0.165";
+        ace_refuel_fuelCapacity = 1360;
+    };
+    class gm_t55am2b_base: gm_t55am2_base {
+        fuelCapacity = "545 * 0.165";
+        ace_refuel_fuelCapacity = 1360;
+    };
 };
