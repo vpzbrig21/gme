@@ -4,7 +4,7 @@ class CfgVehicles {
         ace_refuel_fuelCapacity = 360;
         ace_refuel_canReceive = 1;
         ace_refuel_flowRate = 1;
-        fuelCapacity = "480 * 0.165";
+        fuelCapacity = "500 * 0.165";
         class AcreIntercoms {}; //TODO
         class AcreRacks {}; //TODO
     };

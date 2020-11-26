@@ -1,7 +1,7 @@
 class CfgVehicles {
     class gm_wheeled_APC_base;
     class gm_fuchs_base: gm_wheeled_APC_base {
-        fuelCapacity = "800 * 0.165";
+        fuelCapacity = "780 * 0.165";
         ace_refuel_fuelCapacity = 390;
 		ace_refuel_canReceive = 1;
 		ace_refuel_flowRate = 1;

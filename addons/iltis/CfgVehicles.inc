@@ -1,8 +1,8 @@
 class CfgVehicles {
     class gm_wheeled_car_base;
     class gm_iltis_base: gm_wheeled_car_base {
-        fuelCapacity = "800 * 0.165";
-        ace_refuel_fuelCapacity = 85;
+        fuelCapacity = "600 * 0.165";
+        ace_refuel_fuelCapacity = 84;
         ace_refuel_canReceive = 1;
         ace_refuel_flowRate = 1;
     };
@@ -26,6 +26,7 @@ class CfgVehicles {
                 componentName = "ACRE_VRC103";
                 allowedPositions[] = {"inside"};
                 disabledPositions[] = {};
+
                 defaultComponents[] = {};
                 mountedRadio = "ACRE_PRC117F";
                 isRadioRemovable = 0;

@@ -1,10 +1,10 @@
 class CfgVehicles {
     class gm_wheeled_truck_base;
     class gm_kat1_base: gm_wheeled_truck_base {
-        ace_refuel_fuelCapacity = 270;
+        fuelCapacity = "500 * 0.165";
+        ace_refuel_fuelCapacity = 275;
         ace_refuel_canReceive = 1;
         ace_refuel_flowRate = 1;
-        fuelCapacity = "540 * 0.165";
         class AcreIntercoms {};
         class AcreRacks {};
     };

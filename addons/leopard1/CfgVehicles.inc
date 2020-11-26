@@ -5,7 +5,7 @@ class CfgVehicles {
         ace_refuel_fuelCapacity = 955;
         ace_refuel_canReceive = 1;
         ace_refuel_flowRate = 1;
-        fuelCapacity = "600 * 0.165";
+        fuelCapacity = "530 * 0.165";
         class AcreIntercoms {
             class Intercom_1 {
                 displayName = "Crew intercom";
