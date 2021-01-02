@@ -1,5 +1,5 @@
-#define COMPONENT blank
-#define COMPONENT_BEAUTIFIED Blank
+#define COMPONENT iltis
+#define COMPONENT_BEAUTIFIED Iltis
 #include "\z\gme\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
