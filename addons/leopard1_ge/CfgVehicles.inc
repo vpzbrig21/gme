@@ -46,4 +46,6 @@ class CfgVehicles {
         scope = 2;
         #include "CfgACRE_SEM90_base.inc"
     };
+
+    /*TODO Leopard 1a5*/
 };
