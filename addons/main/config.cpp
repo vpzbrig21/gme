@@ -6,7 +6,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"cba_main","ace_main","acre_main","gm_core","gm_core_vehicles","gm_core_weapons"};
+        requiredAddons[] = {"cba_main","ace_main","gm_core","gm_core_vehicles","gm_core_weapons"};
         author = "ingametek";
         url = "https://github.com/vpzbrig21/gme";
         VERSION_CONFIG;
