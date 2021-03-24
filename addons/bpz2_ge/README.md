@@ -1,11 +1,11 @@
-gme_leopard1_ge
+gme_bpz2_ge
 ===================
 
-Adds ACE and ACRE2 features to the KPz 1 Family.
+Adds blank feature.
 
 
 ## Maintainers
 
 The people responsible for merging changes to this component or answering potential questions.
 
-- [sancron](https://github.com/sancron)
+- [Name](https://github.com/name)
