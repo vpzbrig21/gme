@@ -2,11 +2,11 @@ class AcreIntercoms {
 	class Intercom_1 {
 		displayName = "Crew intercom";
 		shortName = "Crew";
-		allowedPositions[] = {"crew"};
+		allowedPositions[] = {"crew", {"turret", "all"}, {"ffv", "all"}};
 		disabledPositions[] = {};
 		limitedPositions[] = {};
 		numLimitedPositions = 0;
-		masterPositions[] = {};
+		masterPositions[] = {"commander"};
 		connectedByDefault = 1;
 	};
 };
@@ -15,7 +15,7 @@ class AcreRacks {
 		displayName = "Rack 1";
 		shortName = "R1";
 		componentName = "ACRE_VRC103";
-		allowedPositions[] = {"crew"};
+		allowedPositions[] = {"crew", {"turret", "all"}};
 		disabledPositions[] = {};
 		defaultComponents[] = {};
 		mountedRadio = "ACRE_PRC117F";
@@ -26,7 +26,7 @@ class AcreRacks {
 		displayName = "Rack 2";
 		shortName = "R2";
 		componentName = "ACRE_VRC103";
-		allowedPositions[] = {"crew"};
+		allowedPositions[] = {"crew", {"turret", "all"}};
 		disabledPositions[] = {};
 		defaultComponents[] = {};
 		mountedRadio = "ACRE_PRC117F";
