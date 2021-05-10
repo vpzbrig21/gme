@@ -124,10 +124,12 @@ $RECYCLE.BIN/
 *.lnk
 
 # HEMTT Tool
+hemmt_b.exe
 hemtt.exe
 .hemtt/local
 release/*
 releases/*
 keys/*
+tools/*
 *.biprivatekey
 *.pbo
