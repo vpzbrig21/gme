@@ -67,7 +67,7 @@ class CfgVehicles {
                 isRadioRemovable = 0;
                 intercom[] = {"Intercom_1"};
             };
-			class Rack_2 {
+			class Rack_3 {
                 displayName = "Rack 3";
                 shortName = "R3";
                 componentName = "ACRE_VRC103";
