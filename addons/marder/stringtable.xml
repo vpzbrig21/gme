@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Global Mobilization Enhancement">
+    <Package name="gme_marder">
+        <Container name="general">
+            <Key ID="STR_GME_MARDER1_HATCH_OPEN">
+              <Original>Open hatch</Original>
+              <English>Open hatch</English>
+              <German>Heckklappe öffnen</German>
+            </Key>
+            <Key ID="STR_GME_MARDER1_HATCH_CLOSE">
+              <Original>Close hatch</Original>
+              <English>Close hatch</English>
+              <German>Heckklappe schließen</German>
+            </Key>
+            <Key ID="STR_GME_MARDER1_MIRROR_UP">
+              <Original>Fold mirror up</Original>
+              <English>Fold mirror up</English>
+              <German>Spiegel hochklappen</German>
+            </Key>
+            <Key ID="STR_GME_MARDER_MIRROR_DOWN">
+              <Original>Fold mirror down</Original>
+              <English>Fold mirror down</English>
+              <German>Spiegel runterklappen</German>
+            </Key>
+        </Container>
+    </Package>
+</Project>

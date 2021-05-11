@@ -1,11 +1,11 @@
-gme_gepard
+gme_u1300l_ge
 ===================
 
-Adds blank feature.
+Adds ACRE2 and ACE Features to the U1300L.
 
 
 ## Maintainers
 
 The people responsible for merging changes to this component or answering potential questions.
 
-- [Name](https://github.com/name)
+- [sancron](https://github.com/sancron)

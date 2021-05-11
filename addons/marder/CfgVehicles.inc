@@ -16,7 +16,7 @@ class cfgVehicles {
 				position = "aimpoint";
 				radius = 4;
 				showWindow = 0;
-				condition = "(player in [driver this, gunner this, this turretUnit [1]]) && (this doorPhase 'hatch_1_1_source' == 0) && (alive this)";
+				condition = "(player in [driver this, this turretUnit [1]]) && (this doorPhase 'hatch_1_1_source' == 0) && (alive this)";
 				statement = "this animateDoor ['hatch_1_1_source',1]";
 			};
 			class gme_hatch_1_1_close {
@@ -26,7 +26,7 @@ class cfgVehicles {
 				position = "aimpoint";
 				radius = 4;
 				showWindow = 0;
-				condition = "(player in [driver this, gunner this, this turretUnit [1]]) && (this doorPhase 'hatch_1_1_source' == 1) && (alive this)";
+				condition = "(player in [driver this, this turretUnit [1]]) && (this doorPhase 'hatch_1_1_source' == 1) && (alive this)";
 				statement = "this animateDoor ['hatch_1_1_source',0]";
 			};
 			class gme_mirror_down {
