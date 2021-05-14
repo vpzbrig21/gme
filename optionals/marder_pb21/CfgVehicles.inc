@@ -62,7 +62,7 @@ class CfgVehicles {
 		class TransportBackpacks {};
 		gm_InsigniasDefaultUnit = "gme_units_ge_pzgrenbtl212_col";
 		gm_TacticalSignsDefaultPostIcon = "212";
-		gm_TacticalSignsDefaultPreIcon = "3";
+		gm_TacticalSignsDefaultPreIcon = "2";
 	};
 	class gme_ge_army_marder1a2_pb21: gme_ge_army_marder1a2_pb21_base {
 		displayName = "SPz Marder 1A2 - PzBrig21";
