@@ -7,6 +7,29 @@ class CfgVehicles {
         ace_refuel_flowRate = 1;
         fuelCapacity = "530 * 0.165";
         #include "CfgACRE_PRC117_base.inc"
+
+        class UserActions {
+            class gme_mirror_down {
+				displayName = "Spiegel runter";
+				hideOnUse = 1;
+				onlyForPlayer = 0;
+				position = "aimpoint";
+				radius = 4;
+				showWindow = 0;
+				condition = "player == driver this and this animationSourcePhase 'mirror_1_1_1_source' < 1";
+				statement = "this animateSource ['mirror_1_1_1_source',1],this animateSource ['mirror_1_2_1_source',1]";
+			};
+			class gme_mirror_up {
+				displayName = "Spiegel hoch";
+				hideOnUse = 1;
+				onlyForPlayer = 0;
+				position = "aimpoint";
+				radius = 4;
+				showWindow = 0;
+				condition = "player == driver this and this animationSourcePhase 'mirror_1_1_1_source' > 0";
+				statement = "this animateSource ['mirror_1_1_1_source',0],this animateSource ['mirror_1_2_1_source',0]";
+			};
+        };
     };
     class gm_leopard1a0_base: gm_leopard1_base {
         displayName = "KPz Leopard 1A0";
