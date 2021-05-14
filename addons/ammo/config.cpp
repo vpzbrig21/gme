@@ -16,4 +16,5 @@ class CfgPatches {
 
 #include "CfgAmmo.inc"
 #include "CfgMagazines.inc"
+#include "CfgMagazineWells.inc"
 #include "CfgVehicles.inc"
