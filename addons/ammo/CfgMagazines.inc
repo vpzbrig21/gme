@@ -109,12 +109,38 @@ class CfgMagazines {
         scopeCurator = 2;
         author = "Global Mobilization";
     };
+    class gme_400Rnd_20x139mm_hei_t_dm81: gm_magazine_20x139mm_base {
+        displayName = "20 mm 400Rnd HEI-T DM81";
+        descriptionShort = "Caliber: 20x139 mm HEI-T DM81<br />Rounds: 400<br />Used in: RH202";
+        displaynameshort = "HEI-T";
+        ammo = "gm_bullet_20x139mm_hei_t_dm81";
+        count = 400;
+        initSpeed = 1175;
+        tracersEvery = 1;
+        lastRoundsTracer = 1;
+        scope = 1;
+        scopeCurator = 2;
+        author = "Global Mobilization";
+    };
     class gme_180Rnd_20x139mm_apds_t_dm63: gm_magazine_20x139mm_base {
         displayName = "20 mm 180Rnd APDS-T DM63";
-        descriptionShort = "Caliber: 20x139 mm APDS-T DM63<br />Rounds: 120<br />Used in: RH202";
+        descriptionShort = "Caliber: 20x139 mm APDS-T DM63<br />Rounds: 180<br />Used in: RH202";
         displaynameshort = "APDS-T";
         ammo = "gm_bullet_20x139mm_apds_t_dm63";
         count = 180;
+        initSpeed = 1175;
+        tracersEvery = 1;
+        lastRoundsTracer = 1;
+        scope = 1;
+        scopeCurator = 2;
+        author = "Global Mobilization";
+    };
+    class gme_100Rnd_20x139mm_apds_t_dm63: gm_magazine_20x139mm_base {
+        displayName = "20 mm 100Rnd APDS-T DM63";
+        descriptionShort = "Caliber: 20x139 mm APDS-T DM63<br />Rounds: 100<br />Used in: RH202";
+        displaynameshort = "APDS-T";
+        ammo = "gm_bullet_20x139mm_apds_t_dm63";
+        count = 100;
         initSpeed = 1175;
         tracersEvery = 1;
         lastRoundsTracer = 1;
