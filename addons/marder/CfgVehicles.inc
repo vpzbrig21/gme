@@ -10,7 +10,7 @@ class cfgVehicles {
 
 		class UserActions {
 			class gme_hatch_1_1_open {
-				displayName = "Heckklappe öffnen";
+				displayName = ECSTRING(core,TailgateOpen);
 				hideOnUse = 1;
 				onlyForPlayer = 0;
 				position = "aimpoint";
@@ -20,7 +20,7 @@ class cfgVehicles {
 				statement = "this animateDoor ['hatch_1_1_source',1]";
 			};
 			class gme_hatch_1_1_close {
-				displayName = "Heckklappe schliessen";
+				displayName = ECSTRING(core,TailgateClose);
 				hideOnUse = 1;
 				onlyForPlayer = 0;
 				position = "aimpoint";
@@ -30,7 +30,7 @@ class cfgVehicles {
 				statement = "this animateDoor ['hatch_1_1_source',0]";
 			};
 			class gme_mirror_down {
-				displayName = "Spiegel runter";
+				displayName = ECSTRING(core,MirrorDown);
 				hideOnUse = 1;
 				onlyForPlayer = 0;
 				position = "aimpoint";
@@ -40,7 +40,7 @@ class cfgVehicles {
 				statement = "this animateSource ['mirror_source',1]";
 			};
 			class gme_mirror_up {
-				displayName = "Spiegel hoch";
+				displayName = ECSTRING(core,MirrorUp);
 				hideOnUse = 1;
 				onlyForPlayer = 0;
 				position = "aimpoint";
