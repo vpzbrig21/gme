@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Global Mobilization Enhancement">
+    <Package name="gme_core">
+        <Container name="general">
+            <Key ID="STR_GME_CORE_TAILGATEOPEN">
+              <Original>Open tailgate</Original>
+              <English>Open tailgate</English>
+              <German>Heckklappe öffnen</German>
+            </Key>
+            <Key ID="STR_GME_CORE_TAILGATECLOSE">
+              <Original>Close tailgate</Original>
+              <English>Close tailgate</English>
+              <German>Heckklappe schließen</German>
+            </Key>
+            <Key ID="STR_GME_CORE_MIRRORUP">
+              <Original>Mirror up</Original>
+              <English>Mirror up</English>
+              <German>Spiegel hoch</German>
+            </Key>
+            <Key ID="STR_GME_CORE_MIRRORDOWN">
+              <Original>Mirror down</Original>
+              <English>Mirror down</English>
+              <German>Spiegel runter</German>
+            </Key>
+        </Container>
+    </Package>
+</Project>
