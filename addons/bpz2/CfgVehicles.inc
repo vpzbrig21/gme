@@ -13,7 +13,7 @@ class CfgVehicles {
 
 		class UserActions {
             class gme_mirror_down {
-				displayName = "Spiegel runter";
+				displayName = ECSTRING(core,MirrorDown);
 				hideOnUse = 1;
 				onlyForPlayer = 0;
 				position = "aimpoint";
@@ -23,7 +23,7 @@ class CfgVehicles {
 				statement = "this animateSource ['mirror_1_1_1_source',1],this animateSource ['mirror_1_2_1_source',1]";
 			};
 			class gme_mirror_up {
-				displayName = "Spiegel hoch";
+				displayName = ECSTRING(core,MirrorUp);
 				hideOnUse = 1;
 				onlyForPlayer = 0;
 				position = "aimpoint";
