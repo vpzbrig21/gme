@@ -64,4 +64,101 @@ class cfgVehicles {
             };
         };
     };
+
+    // Ammoboxes ACE
+    class ReammoBox_F;
+    class gm_AmmoBox_base: ReammoBox_F {
+        ace_cargo_canLoad = 1;
+        ace_cargo_size = 1;
+        ace_dragging_canCarry = 1;
+        ace_dragging_canDrag = 1;
+    };
+    class gm_ammobox_wood_155mm_base: gm_AmmoBox_base {
+        ace_cargo_canLoad = 1;
+        ace_cargo_size = 2;
+        ace_dragging_canCarry = 1;
+        ace_dragging_canDrag = 1;
+        ace_rearm_defaultSupply = 8000;
+        transportAmmo = 0;
+    };
+
+    class gm_military_object_base;
+    class gm_shell_155mm_gas_m110_static: gm_military_object_base {
+        ace_cargo_canLoad = 1;
+        ace_cargo_size = 1;
+        ace_dragging_canCarry = 1;
+        ace_dragging_canDrag = 1;
+    };
+    class gm_shell_155mm_gas_m121_static: gm_military_object_base {
+        ace_cargo_canLoad = 1;
+        ace_cargo_size = 1;
+        ace_dragging_canCarry = 1;
+        ace_dragging_canDrag = 1;
+    };
+    class gm_shell_155mm_he_dm111_static: gm_military_object_base {
+        ace_cargo_canLoad = 1;
+        ace_cargo_size = 1;
+        ace_dragging_canCarry = 1;
+        ace_dragging_canDrag = 1;
+    };
+    class gm_shell_155mm_he_dm21_static: gm_military_object_base {
+        ace_cargo_canLoad = 1;
+        ace_cargo_size = 1;
+        ace_dragging_canCarry = 1;
+        ace_dragging_canDrag = 1;
+    };
+    class gm_shell_155mm_he_m107_static: gm_military_object_base {
+        ace_cargo_canLoad = 1;
+        ace_cargo_size = 1;
+        ace_dragging_canCarry = 1;
+        ace_dragging_canDrag = 1;
+    };
+    class gm_shell_155mm_he_m795_static: gm_military_object_base {
+        ace_cargo_canLoad = 1;
+        ace_cargo_size = 1;
+        ace_dragging_canCarry = 1;
+        ace_dragging_canDrag = 1;
+    };
+    class gm_shell_155mm_icm_dm602_static: gm_military_object_base {
+        ace_cargo_canLoad = 1;
+        ace_cargo_size = 1;
+        ace_dragging_canCarry = 1;
+        ace_dragging_canDrag = 1;
+    };
+    class gm_shell_155mm_illum_dm106_static: gm_military_object_base {
+        ace_cargo_canLoad = 1;
+        ace_cargo_size = 1;
+        ace_dragging_canCarry = 1;
+        ace_dragging_canDrag = 1;
+    };
+    class gm_shell_155mm_illum_m485_static: gm_military_object_base {
+        ace_cargo_canLoad = 1;
+        ace_cargo_size = 1;
+        ace_dragging_canCarry = 1;
+        ace_dragging_canDrag = 1;
+    };
+    class gm_shell_155mm_smart_dm702_static: gm_military_object_base {
+        ace_cargo_canLoad = 1;
+        ace_cargo_size = 1;
+        ace_dragging_canCarry = 1;
+        ace_dragging_canDrag = 1;
+    };
+    class gm_shell_155mm_smoke_dm105_static: gm_military_object_base {
+        ace_cargo_canLoad = 1;
+        ace_cargo_size = 1;
+        ace_dragging_canCarry = 1;
+        ace_dragging_canDrag = 1;
+    };
+    class gm_shell_155mm_smoke_m110_static: gm_military_object_base {
+        ace_cargo_canLoad = 1;
+        ace_cargo_size = 1;
+        ace_dragging_canCarry = 1;
+        ace_dragging_canDrag = 1;
+    };
+    class gm_shell_155mm_smoke_m116_static: gm_military_object_base {
+        ace_cargo_canLoad = 1;
+        ace_cargo_size = 1;
+        ace_dragging_canCarry = 1;
+        ace_dragging_canDrag = 1;
+    };
 };
