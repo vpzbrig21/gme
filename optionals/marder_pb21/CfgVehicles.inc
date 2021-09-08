@@ -44,7 +44,7 @@ class CfgVehicles {
 		maximumLoad = 18000;
 		class Turrets: Turrets {
 			class MainTurret: MainTurret {
-				magazines[] = {"gme_320Rnd_20x139mm_hei_t_dm81","gme_180Rnd_20x139mm_apds_t_dm63","gm_500Rnd_762x51mm_b_t_DM21_mg3","gm_500Rnd_762x51mm_b_t_DM21_mg3","gm_500Rnd_762x51mm_b_t_DM21_mg3","gm_500Rnd_762x51mm_b_t_DM21_mg3"};
+				magazines[] = {"gme_400Rnd_20x139mm_hei_t_dm81","gme_400Rnd_20x139mm_hei_t_dm81","gme_100Rnd_20x139mm_apds_t_dm63","gme_100Rnd_20x139mm_apds_t_dm63","gme_100Rnd_20x139mm_apds_t_dm63","gme_100Rnd_20x139mm_apds_t_dm63","gm_500Rnd_762x51mm_b_t_DM21_mg3","gm_500Rnd_762x51mm_b_t_DM21_mg3","gm_500Rnd_762x51mm_b_t_DM21_mg3","gm_500Rnd_762x51mm_b_t_DM21_mg3"};
 				class Turrets: Turrets {
 					class CommanderTurret: CommanderTurret {};
 					class MilanTurret_01: MilanTurret_01 {};
@@ -63,6 +63,7 @@ class CfgVehicles {
 		gm_InsigniasDefaultUnit = "gme_units_ge_pzgrenbtl212_col";
 		gm_TacticalSignsDefaultPostIcon = "212";
 		gm_TacticalSignsDefaultPreIcon = "2";
+		#include "CfgACRE_SEM90_base.inc"
 	};
 	class gme_ge_army_marder1a2_pb21: gme_ge_army_marder1a2_pb21_base {
 		displayName = "SPz Marder 1A2 - PzBrig21";

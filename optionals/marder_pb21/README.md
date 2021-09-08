@@ -1,7 +1,10 @@
 gme_marder_pb21
 ===================
 
-Adds ACE and ACRE features.
+Spezielle Version für die virtuelle Panzerbrigade 21.
+
+- Geänderte Munitionsbeladung für 20mm
+- Geänderte Funkausstattung für ACRE
 
 
 ## Maintainers
