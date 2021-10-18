@@ -18,19 +18,19 @@ class CfgAmmo {
         ace_explosives_defuseObjectPosition[] = {0, 0, 0.02};
     };
 
-    class MineBase;
-    class gm_mine_at_mn111: MineBase {
+    class gm_mine_at_base;
+    class gm_mine_at_mn111: gm_mine_at_base {
         ace_explosives_defuseObjectPosition[] = {0, 0, 0.02};
     };
-    class gm_mine_at_dm21: MineBase {
+    class gm_mine_at_dm21: gm_mine_at_base {
         ace_explosives_defuseObjectPosition[] = {0, 0, 0.02};
     };
-    class gm_mine_at_tm46: MineBase {
+    class gm_mine_at_tm46: gm_mine_at_base {
         ace_explosives_defuseObjectPosition[] = {0, 0, 0.02};
     };
 
-    class APERSMine_Range_Ammo;
-    class gm_mine_ap_dm31: APERSMine_Range_Ammo {
+    class gm_mine_bounce_base;
+    class gm_mine_ap_dm31: gm_mine_bounce_base {
         ace_explosives_defuseObjectPosition[] = {0, 0, 0.02};
     };
 
