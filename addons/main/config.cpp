@@ -14,4 +14,5 @@ class CfgPatches {
 };
 
 #include "CfgMods.inc"
+#include "CfgSettings.inc"
 #include "CfgVehicleInsignias.inc"
