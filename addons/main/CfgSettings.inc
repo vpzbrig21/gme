@@ -14,10 +14,6 @@ class CfgSettings {
 
                     //Warnings for missing DLC compat
                     ace_compat_sog[] = {"ace_compat_sog", {VERSION_AR}, "isClass (configFile >> 'CfgPatches' >> 'data_f_vietnam')"};
-                    /*
-						ace_compat_gm[] = {"ace_compat_gm", {VERSION_AR}, "isClass (configFile >> 'CfgPatches' >> 'gm_core')"};
-						Not required GME makes it better!
-					*/
                 };
             };
         };
