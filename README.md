@@ -4,7 +4,7 @@
 
 <p align="center">
     <a href="https://github.com/vpzbrig21/gme/releases/latest">
-        <img src="https://img.shields.io/badge/Version-1.4.4-blue.svg?style=flat-square" alt="GME Version">
+        <img src="https://img.shields.io/badge/Version-1.4.6-blue.svg?style=flat-square" alt="GME Version">
     </a>
     <a href="https://github.com/vpzbrig21/gme/issues">
         <img src="https://img.shields.io/github/issues-raw/vpzbrig21/gme.svg?style=flat-square&label=Issues" alt="GME Issues">
