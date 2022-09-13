@@ -49,5 +49,14 @@ class CfgVehicles {
                 intercom[] = {"Intercom_1"};
             };
         };
+        class gm_bo105p1m_vbh_base;
+        class gm_bo105p1m_vbh_swooper_base: gm_bo105p1m_vbh_base {
+            ace_fastroping_enabled = 1;
+		    ace_fastroping_ropeOrigins[] = {{-1.34,0.695,-0.0757732},{1.34,0.695,-0.0973468}};
+            ace_fastroping_onCut = "gme_bo105_fnc_onCut";
+            ace_fastroping_onCutRopes = "gme_bo105_gm_fnc_onCutRopes";
+            ace_fastroping_onDeployRopes = "gme_bo105_gm_fnc_onDeployRopes";
+            ace_fastroping_onPrepare = "gme_bo105_gm_fnc_onPrepare";
+        };
     };
 };
