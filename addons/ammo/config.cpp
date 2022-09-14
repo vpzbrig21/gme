@@ -14,6 +14,7 @@ class CfgPatches {
     };
 };
 
+#include "CfgEventHandlers.hpp"
 #include "CfgAmmo.inc"
 #include "CfgMagazines.inc"
 #include "CfgMagazineWells.inc"

@@ -1,0 +1,1 @@
+#include "\z\gme\addons\ammo\script_component.hpp"
