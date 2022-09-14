@@ -4,7 +4,7 @@ class cfgVehicles {
         class ACE_SelfActions {
             class ACE_Equipment {
                 class GME_SwapGranades {
-                    displayName = "Test";
+                    displayName = "$STR_GME_AMMO_SWAPGRANDE_CAT";
                     icon = "\a3\modules_f_curator\data\portraitirgrenade_ca.paa";
                     exceptions[] = {"isNotInside", "isNotSitting"};
                     class GME_DM51_MountFrag {
