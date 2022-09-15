@@ -18,17 +18,17 @@ params ["_vehicle"];
 
 switch (true) do {
     case (_vehicle isKindOf "gm_ge_army_bo105p1m_vbh_swooper"): {
-        _vehicle setVariable [QEGVAR(fastroping,doorsLocked), false, true];
+        _vehicle setVariable ["ace_fastroping_doorslocked", false, true];
         _vehicle animateDoor ["door_2_1_source", 0];
         _vehicle animateDoor ["door_2_2_source", 0];
     };
     case (_vehicle isKindOf "gm_ch53_base"): {
-        _vehicle setVariable [QEGVAR(fastroping,doorsLocked), false, true];
+        _vehicle setVariable ["ace_fastroping_doorslocked", false, true];
         _vehicle animateDoor ["cargoramp_source", 0];
         _vehicle animateSource ["slingloadlights_source", 0];
     };
     case (_vehicle isKindOf "gm_mi2_base"): {
-        _vehicle setVariable [QEGVAR(fastroping,doorsLocked), false, true];
+        _vehicle setVariable ["ace_fastroping_doorslocked", false, true];
         _vehicle animate ["door_2_1_anim", 0]; // animateSource/animateDoor didnt work
     };
     default {};
