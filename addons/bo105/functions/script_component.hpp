@@ -1,0 +1,1 @@
+#include "\z\gme\addons\bo105\script_component.hpp"

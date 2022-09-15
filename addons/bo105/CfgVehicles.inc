@@ -1,6 +1,7 @@
 class CfgVehicles {
     class gm_helicopter_base;
     class gm_bo105_base: gm_helicopter_base {
+        ace_fastroping_enabled = 0;
         fuelCapacity = "670 * 0.165";
         ace_refuel_fuelCapacity = 570;
 		ace_refuel_canReceive = 1;
@@ -49,5 +50,14 @@ class CfgVehicles {
                 intercom[] = {"Intercom_1"};
             };
         };
+    };
+    class gm_bo105p1m_vbh_base;
+    class gm_bo105p1m_vbh_swooper_base: gm_bo105p1m_vbh_base {
+        ace_fastroping_enabled = 1;
+        ace_fastroping_ropeOrigins[] = {{-1.34,0.695,-0.0757732},{1.34,0.695,-0.0973468}};
+        ace_fastroping_onCut = QFUNC(onCut);
+        ace_fastroping_onCutRopes = QFUNC(onCutRopes);
+        ace_fastroping_onDeployRopes = QFUNC(onDeployRopes);
+        ace_fastroping_onPrepare = QFUNC(onPrepare);
     };
 };

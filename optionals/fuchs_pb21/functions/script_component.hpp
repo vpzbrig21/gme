@@ -1,1 +1,0 @@
-#include "\z\gme\addons\blank\script_component.hpp"

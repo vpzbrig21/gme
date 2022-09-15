@@ -2,6 +2,10 @@ class CfgVehicles {
     class gm_helicopter_base;
     class gm_ch53_base: gm_helicopter_base {
         fuelCapacity = "400 * 0.165";
+        ace_fastroping_enabled = 1;
+        ace_fastroping_ropeOrigins[] = {{0.6, -5.2, -0.8},{-0.6, -5.2, -0.8}};
+        ace_fastroping_onCut = QFUNC(onCut);
+        ace_fastroping_onPrepare = QFUNC(onPrepare);
         ace_refuel_fuelCapacity = 2384;
 		ace_refuel_canReceive = 1;
 		ace_refuel_flowRate = 8;
