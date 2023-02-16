@@ -18,14 +18,20 @@ class CfgVehicles {
     class gm_leopard1a1a3_base;
     class gm_ge_army_leopard1a1a3_base: gm_leopard1a1a3_base {
         ace_refuel_fuelCapacity = 955;
-        scope = 2;
         #include "CfgACRE_SEM90_base.inc"
+    };
+    class gm_ge_army_leopard1a1a3: gm_ge_army_leopard1a1a3_base {
+        scope = 2;
+        scopeCurator = 2;
     };
     class gm_leopard1a1a4_base;
     class gm_ge_army_leopard1a1a4_base: gm_leopard1a1a4_base {
         ace_refuel_fuelCapacity = 955;
-        scope = 2;
         #include "CfgACRE_SEM90_base.inc"
+    };
+    class gm_ge_army_leopard1a1a4: gm_ge_army_leopard1a1a4_base {
+        scope = 2;
+        scopeCurator = 2;
     };
 
     /* Leopard 1a3 */
@@ -51,7 +57,6 @@ class CfgVehicles {
     class gm_leopard1a3a3_base;
     class gm_ge_army_leopard1a3a3_base: gm_leopard1a3a3_base {
         ace_refuel_fuelCapacity = 955;
-        scope = 2;
         #include "CfgACRE_SEM90_base.inc"
     };
     class gm_ge_army_leopard1a3a3: gm_ge_army_leopard1a3a3_base {
@@ -59,7 +64,7 @@ class CfgVehicles {
         scopeCurator = 2;
     };
 
-    /*TODO Leopard 1a5*/
+    /* Leopard 1a5 */
     class gm_leopard1a5_base;
     class gm_ge_army_leopard1a5_base: gm_leopard1a5_base {
         ace_refuel_fuelCapacity = 955;
@@ -75,5 +80,4 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
     };
-
 };
