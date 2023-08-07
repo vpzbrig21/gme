@@ -1,5 +1,26 @@
 class CfgVehicles {
-    class gm_helicopter_base;
+    class Helicopter;
+    class Helicopter_Base_F: Helicopter {
+        class Turrets;
+    };
+    class Helicopter_Base_H: Helicopter_Base_F {
+        class Turrets: Turrets {
+            class MainTurret;
+            class CopilotTurret;
+        };
+    };
+    class gm_helicopter_base: Helicopter_Base_H {
+        class Turrets: Turrets {
+            class MainTurret: MainTurret {
+                allowTabLock = 0;
+                canUseScanners = 0;
+            };
+            class CopilotTurret: CopilotTurret {
+                allowTabLock = 0;
+                canUseScanners = 0;
+            };
+        };
+    };
     class gm_bo105_base: gm_helicopter_base {
         ace_fastroping_enabled = 0;
         fuelCapacity = "670 * 0.165";
