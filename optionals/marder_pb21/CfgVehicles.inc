@@ -71,11 +71,47 @@ class CfgVehicles {
 		scope = 2;
         scopeCurator = 2;
 	};
+
+	// Alfa Zug
+	class gme_ge_army_marder1a2_pb21_a: gme_ge_army_marder1a2_pb21_base {
+		displayName = "SPz Marder 1A2 - I/2./212 A";
+		scope = 2;
+        scopeCurator = 2;
+		gm_LicensePlateDefaultDigits = "Y-205450";
+		gm_TacticalNumbersDefaultNumber = "210";
+		gm_InsigniasDefaultFormation = "gm_insignia_formation_A_yel";
+	};
+	class gme_ge_army_marder1a2_pb21_a1: gme_ge_army_marder1a2_pb21_base {
+		displayName = "SPz Marder 1A2 - I/2./212 A1";
+		scope = 2;
+        scopeCurator = 2;
+		gm_LicensePlateDefaultDigits = "Y-219938";
+		gm_TacticalNumbersDefaultNumber = "211";
+		gm_InsigniasDefaultFormation = "gm_insignia_formation_A1_yel";
+	};
+	class gme_ge_army_marder1a2_pb21_a2: gme_ge_army_marder1a2_pb21_base {
+		displayName = "SPz Marder 1A2 - I/2./212 A2";
+		scope = 2;
+        scopeCurator = 2;
+		gm_LicensePlateDefaultDigits = "Y-222592";
+		gm_TacticalNumbersDefaultNumber = "212";
+		gm_InsigniasDefaultFormation = "gm_insignia_formation_A2_yel";
+	};
+	class gme_ge_army_marder1a2_pb21_a3: gme_ge_army_marder1a2_pb21_base {
+		displayName = "SPz Marder 1A2 - I/2./212 A3";
+		scope = 2;
+        scopeCurator = 2;
+		gm_LicensePlateDefaultDigits = "Y-227205";
+		gm_TacticalNumbersDefaultNumber = "213";
+		gm_InsigniasDefaultFormation = "gm_insignia_formation_A3_yel";
+	};
+
+	// Bravo Zug
 	class gme_ge_army_marder1a2_pb21_b: gme_ge_army_marder1a2_pb21_base {
 		displayName = "SPz Marder 1A2 - II/2./212 B";
 		scope = 2;
         scopeCurator = 2;
-		gm_LicensePlateDefaultDigits = "Y-233642";
+		gm_LicensePlateDefaultDigits = "Y-268725";
 		gm_TacticalNumbersDefaultNumber = "220";
 		gm_InsigniasDefaultFormation = "gm_insignia_formation_B_yel";
 	};
@@ -83,7 +119,7 @@ class CfgVehicles {
 		displayName = "SPz Marder 1A2 - II/2./212 B1";
 		scope = 2;
         scopeCurator = 2;
-		gm_LicensePlateDefaultDigits = "Y-247894";
+		gm_LicensePlateDefaultDigits = "Y-273472";
 		gm_TacticalNumbersDefaultNumber = "221";
 		gm_InsigniasDefaultFormation = "gm_insignia_formation_B1_yel";
 	};
@@ -91,7 +127,7 @@ class CfgVehicles {
 		displayName = "SPz Marder 1A2 - II/2./212 B2";
 		scope = 2;
         scopeCurator = 2;
-		gm_LicensePlateDefaultDigits = "Y-260653";
+		gm_LicensePlateDefaultDigits = "Y-210108";
 		gm_TacticalNumbersDefaultNumber = "222";
 		gm_InsigniasDefaultFormation = "gm_insignia_formation_B2_yel";
 	};
@@ -99,15 +135,17 @@ class CfgVehicles {
 		displayName = "SPz Marder 1A2 - II/2./212 B3";
 		scope = 2;
         scopeCurator = 2;
-		gm_LicensePlateDefaultDigits = "Y-276827";
+		gm_LicensePlateDefaultDigits = "Y-243220";
 		gm_TacticalNumbersDefaultNumber = "223";
 		gm_InsigniasDefaultFormation = "gm_insignia_formation_B3_yel";
 	};
+
+	// Charlie Zug
 	class gme_ge_army_marder1a2_pb21_c: gme_ge_army_marder1a2_pb21_base {
 		displayName = "SPz Marder 1A2 - III/2./212 C";
 		scope = 2;
         scopeCurator = 2;
-		gm_LicensePlateDefaultDigits = "Y-284225";
+		gm_LicensePlateDefaultDigits = "Y-247174";
 		gm_TacticalNumbersDefaultNumber = "230";
 		gm_InsigniasDefaultFormation = "gm_insignia_formation_C_yel";
 	};
@@ -115,7 +153,7 @@ class CfgVehicles {
 		displayName = "SPz Marder 1A2 - III/2./212 C1";
 		scope = 2;
         scopeCurator = 2;
-		gm_LicensePlateDefaultDigits = "Y-268319";
+		gm_LicensePlateDefaultDigits = "Y-268582";
 		gm_TacticalNumbersDefaultNumber = "231";
 		gm_InsigniasDefaultFormation = "gm_insignia_formation_C1_yel";
 	};
@@ -123,7 +161,7 @@ class CfgVehicles {
 		displayName = "SPz Marder 1A2 - III/2./212 C2";
 		scope = 2;
         scopeCurator = 2;
-		gm_LicensePlateDefaultDigits = "Y-283378";
+		gm_LicensePlateDefaultDigits = "Y-285399";
 		gm_TacticalNumbersDefaultNumber = "232";
 		gm_InsigniasDefaultFormation = "gm_insignia_formation_C2_yel";
 	};
@@ -131,7 +169,7 @@ class CfgVehicles {
 		displayName = "SPz Marder 1A2 - III/2./212 C3";
 		scope = 2;
         scopeCurator = 2;
-		gm_LicensePlateDefaultDigits = "Y-274127";
+		gm_LicensePlateDefaultDigits = "Y-286880";
 		gm_TacticalNumbersDefaultNumber = "233";
 		gm_InsigniasDefaultFormation = "gm_insignia_formation_C3_yel";
 	};
