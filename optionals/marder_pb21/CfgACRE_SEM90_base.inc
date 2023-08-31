@@ -9,7 +9,7 @@ class AcreIntercoms {
 	class Intercom_1 {
 		displayName = "Crew intercom";
 		shortName = "Crew";
-		allowedPositions[] = {"driver","gunner","commander"}; //{"turret", [2]} wurde entfernt
+		allowedPositions[] = {"driver","commander","gunner","turret_[0]","turret_[0,1]","turret_[1]"};
 		disabledPositions[] = {};
 		limitedPositions[] = {{"cargo", "all"}, {"turret", "all"}, {"ffv", "all"}};
 		numLimitedPositions = 2;
