@@ -5,6 +5,6 @@ class CfgVehicles {
         ace_refuel_fuelCapacity = 84;
         ace_refuel_canReceive = 1;
         ace_refuel_flowRate = 1;
-        #include "CfgACRE_PRC117_base.inc"
+        #include "CfgACRE_PRC117_base.hpp"
     };
 };

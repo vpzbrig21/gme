@@ -6,7 +6,7 @@ class CfgVehicles {
         gm_InsigniasDefaultUnit = "gme_units_ge_pzgrenbtl212_col";
 		gm_TacticalSignsDefaultPostIcon = "203";
 		gm_TacticalSignsDefaultPreIcon = "2";
-        #include "CfgACRE_SEM90_base.inc"
+        #include "CfgACRE_SEM90_base.hpp"
 
         //Empty
         maximumLoad = 10000;
@@ -28,7 +28,7 @@ class CfgVehicles {
         gm_InsigniasDefaultUnit = "gme_units_ge_pzgrenbtl212_col";
 		gm_TacticalSignsDefaultPostIcon = "203";
 		gm_TacticalSignsDefaultPreIcon = "2";
-        #include "CfgACRE_SEM90_base.inc"
+        #include "CfgACRE_SEM90_base.hpp"
 
         //Empty
         maximumLoad = 10000;

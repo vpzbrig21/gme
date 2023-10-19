@@ -6,7 +6,7 @@ class CfgVehicles {
         ace_refuel_canReceive = 1;
         ace_refuel_flowRate = 1;
         fuelCapacity = "530 * 0.165";
-        #include "CfgACRE_PRC117_base.inc"
+        #include "CfgACRE_PRC117_base.hpp"
 
         class UserActions {
             class gme_mirror_down {

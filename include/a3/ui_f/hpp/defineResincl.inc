@@ -681,7 +681,7 @@ enum
 #define IDD_FIELD_MANUAL                162
 //Dialogue for controls scheme selection
 #define IDD_CONTROLS_SCHEME             163
-//Dialogue for choosing layout of mission editor. NOTE: 161-163 are already in use, see A3\Ui_f\hpp\defineResincl.inc
+//Dialogue for choosing layout of mission editor. NOTE: 161-163 are already in use, see A3\Ui_f\hpp\defineResincl.hpp
 #define IDD_EDITOR_LAYOUT               164
 //Dialogue for publishing mission on Steam.
 #define IDD_PUBLISH_MISSION             165

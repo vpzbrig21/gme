@@ -14,4 +14,4 @@ class CfgPatches {
     };
 };
 
-#include "CfgMagazineWells.inc"
+#include "CfgMagazineWells.hpp"

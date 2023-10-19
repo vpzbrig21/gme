@@ -5,7 +5,7 @@ class cfgVehicles {
         ace_refuel_canReceive = 1;
         ace_refuel_flowRate = 1;
         fuelCapacity = "650 * 0.165";
-		#include "CfgACRE_SEM25_base.inc"
+		#include "CfgACRE_SEM25_base.hpp"
 	};
 	class gm_marder1a1plus_base;
 	class gm_ge_army_marder1a1plus_base: gm_marder1a1plus_base {
@@ -13,7 +13,7 @@ class cfgVehicles {
         ace_refuel_canReceive = 1;
         ace_refuel_flowRate = 1;
         fuelCapacity = "650 * 0.165";
-		#include "CfgACRE_SEM25_base.inc"
+		#include "CfgACRE_SEM25_base.hpp"
 	};
 	class gm_marder1a2_base;
 	class gm_ge_army_marder1a2_base: gm_marder1a2_base {
@@ -21,6 +21,6 @@ class cfgVehicles {
         ace_refuel_canReceive = 1;
         ace_refuel_flowRate = 1;
         fuelCapacity = "650 * 0.165";
-		#include "CfgACRE_SEM25_base.inc"
+		#include "CfgACRE_SEM25_base.hpp"
 	};
 };

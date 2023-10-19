@@ -1,14 +1,17 @@
 class CfgVehicles {
-    class gm_wheeled_APC_base;
-    class gm_luchs_base: gm_wheeled_APC_base {
-        displayName = "SpPz Luchs 2";
-        ace_refuel_fuelCapacity = 500;
+	class gm_Leopard1_base;
+	class gm_BPz2_base: gm_Leopard1_base {
+        fuelCapacity = "840 * 0.165";
+		ace_refuel_fuelCapacity = 1550;
         ace_refuel_canReceive = 1;
         ace_refuel_flowRate = 1;
-        fuelCapacity = "720 * 0.165";
-        #include "CfgACRE_PRC117_base.inc"
+		ace_cargo_hasCargo = 1;
+		ace_cargo_space = 12;
+        ace_repair_canRepair = 1;
+        transportRepair = 0;
+        #include "CfgACRE_PRC117_base.hpp"
 
-        class UserActions {
+		class UserActions {
             class gme_mirror_down {
 				displayName = ECSTRING(core,MirrorDown);
 				hideOnUse = 1;
@@ -30,11 +33,5 @@ class CfgVehicles {
 				statement = "this animateSource ['mirror_source',0]";
 			};
         };
-    };
-    class gm_luchsa1_base: gm_luchs_base {
-        displayName = "SpPz Luchs 2A1";
-    };
-    class gm_luchsa2_base: gm_luchs_base {
-        displayName = "SpPz Luchs 2A2";
-    };
+	};
 };

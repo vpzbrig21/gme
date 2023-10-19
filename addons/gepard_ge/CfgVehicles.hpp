@@ -5,6 +5,6 @@ class CfgVehicles {
         ace_refuel_canReceive = 1;
         ace_refuel_flowRate = 1;
         fuelCapacity = "530 * 0.165";
-		#include "CfgACRE_SEM90_base.inc"
+		#include "CfgACRE_SEM90_base.hpp"
 	};
 };
