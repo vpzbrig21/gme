@@ -11,20 +11,19 @@ include = [
     "LICENSE",
     "logo_gme_ca.paa"
 ]
+exclude = [
+    "*.psd",
+    "*.png",
+    "*.hpp",
+]
 
 [version]
 git_hash = 0
 
-[asc]
-enabled = true
-exclude = [
-    "/xeh_prep.sqf",
-]
-
 [hemtt.config]
 preset = "Hemtt"
 
-[hemtt.launch]
+[hemtt.launch.default]
 workshop = [
     "450814997", # CBA_A3's Workshop ID
     "463939057", # ACE3's Workshop ID
