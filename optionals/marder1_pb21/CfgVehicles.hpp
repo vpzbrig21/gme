@@ -42,6 +42,7 @@ class CfgVehicles {
 	};
 	class gme_ge_army_marder1a2_pb21_base: gme_ge_army_marder1a2_base {
 		maximumLoad = 18000;
+		editorCategory = "pb21_EdCategory";
 		class Turrets: Turrets {
 			class MainTurret: MainTurret {
 				magazines[] = {"gme_400Rnd_20x139mm_hei_t_dm81","gme_400Rnd_20x139mm_hei_t_dm81","gme_100Rnd_20x139mm_apds_t_dm63","gme_100Rnd_20x139mm_apds_t_dm63","gme_100Rnd_20x139mm_apds_t_dm63","gme_100Rnd_20x139mm_apds_t_dm63","gm_500Rnd_762x51mm_b_t_DM21_mg3","gm_500Rnd_762x51mm_b_t_DM21_mg3","gm_500Rnd_762x51mm_b_t_DM21_mg3","gm_500Rnd_762x51mm_b_t_DM21_mg3"};

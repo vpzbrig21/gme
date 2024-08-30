@@ -119,7 +119,7 @@ class gm_VehicleInsignias_Unit: gm_VehicleInsignias_base {
 		value = "gme_units_gup_ooarai_col";
 		picture = "z\gme\addons\main\data\systems\vehicleMarkings\insignias\crest\gme_gup_ooarai_col_ca.paa";
 	};
-	class gme_units_gup_ooarai_col {
+	class gme_units_gup_kuromorimine_col {
 		name = "Schwarzwaldgipfel";
 		author = "ingametek";
 		texture = "z\gme\addons\main\data\systems\vehicleMarkings\insignias\crest\gme_gup_kuromorimine_col_ca.paa";
