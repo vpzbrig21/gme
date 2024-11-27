@@ -6,12 +6,12 @@ class CfgEditorCategories {
 
 class CfgEditorSubcategories {
 	class gme_EdSubcat_SPz {
-		displayName = "SPz"
+		displayName = "SPz";
 	};
 	class gme_EdSubcat_TPz {
-		displayName = "TPz"
+		displayName = "TPz";
 	};
 	class gme_EdSubcat_KPz {
-		displayName = "KPz"
+		displayName = "KPz";
 	};
 };

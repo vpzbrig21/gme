@@ -2,50 +2,50 @@
 <Project name="Global Mobilization Enhancement">
     <Package name="gme_ammo">
         <Container name="general">
-            <Key ID="STR_GME_AMMO_DM51_REMOVEFRAG">
-              <Original>DM51 Remove fragmentation sleeve</Original>
-              <English>DM51 Remove fragmentation sleeve</English>
-              <German>DM51 Splitterkörper entfernen</German>
-            </Key>
-            <Key ID="STR_GME_AMMO_DM51_MOUNTFRAG">
-              <Original>DM51 Mount fragmentation sleeve</Original>
-              <English>DM51 Mount fragmentation sleeve</English>
-              <German>DM51 Splitterkörper anbringen</German>
+            <Key ID="STR_GME_AMMO_DM51A1_MOUNTFRAG">
+                <Original>DM51A1 Mount fragmentation sleeve</Original>
+                <English>DM51A1 Mount fragmentation sleeve</English>
+                <German>DM51A1 Splitterkörper anbringen</German>
             </Key>
             <Key ID="STR_GME_AMMO_DM51A1_REMOVEFRAG">
-              <Original>DM51A1 Remove fragmentation sleeve</Original>
-              <English>DM51A1 Remove fragmentation sleeve</English>
-              <German>DM51A1 Splitterkörper entfernen</German>
+                <Original>DM51A1 Remove fragmentation sleeve</Original>
+                <English>DM51A1 Remove fragmentation sleeve</English>
+                <German>DM51A1 Splitterkörper entfernen</German>
             </Key>
-            <Key ID="STR_GME_AMMO_DM51A1_MOUNTFRAG">
-              <Original>DM51A1 Mount fragmentation sleeve</Original>
-              <English>DM51A1 Mount fragmentation sleeve</English>
-              <German>DM51A1 Splitterkörper anbringen</German>
+            <Key ID="STR_GME_AMMO_DM51_MOUNTFRAG">
+                <Original>DM51 Mount fragmentation sleeve</Original>
+                <English>DM51 Mount fragmentation sleeve</English>
+                <German>DM51 Splitterkörper anbringen</German>
             </Key>
-            <Key ID="STR_GME_AMMO_DM58_REMOVEFRAG">
-              <Original>DM58 Remove fragmentation sleeve</Original>
-              <English>DM58 Remove fragmentation sleeve</English>
-              <German>DM58 Splitterkörper entfernen</German>
+            <Key ID="STR_GME_AMMO_DM51_REMOVEFRAG">
+                <Original>DM51 Remove fragmentation sleeve</Original>
+                <English>DM51 Remove fragmentation sleeve</English>
+                <German>DM51 Splitterkörper entfernen</German>
             </Key>
             <Key ID="STR_GME_AMMO_DM58_MOUNTFRAG">
-              <Original>DM58 Mount fragmentation sleeve</Original>
-              <English>DM58 Mount fragmentation sleeve</English>
-              <German>DM58 Splitterkörper anbringen</German>
+                <Original>DM58 Mount fragmentation sleeve</Original>
+                <English>DM58 Mount fragmentation sleeve</English>
+                <German>DM58 Splitterkörper anbringen</German>
             </Key>
-            <Key ID="STR_GME_AMMO_SWAPGRANDE_CAT">
-              <Original>Grenade</Original>
-              <English>Grenade</English>
-              <German>Granate</German>
-            </Key>
-            <Key ID="STR_GME_AMMO_REMOVEFRAG">
-              <Original>Removing fragmentation sleeve...</Original>
-              <English>Removing fragmentation sleeve...</English>
-              <German>Splitterkörper abnehmen...</German>
+            <Key ID="STR_GME_AMMO_DM58_REMOVEFRAG">
+                <Original>DM58 Remove fragmentation sleeve</Original>
+                <English>DM58 Remove fragmentation sleeve</English>
+                <German>DM58 Splitterkörper entfernen</German>
             </Key>
             <Key ID="STR_GME_AMMO_MOUNTFRAG">
-              <Original>Mounting fragmentation sleeve...</Original>
-              <English>Mounting fragmentation sleeve...</English>
-              <German>Splitterkörper anbringen...</German>
+                <Original>Mounting fragmentation sleeve...</Original>
+                <English>Mounting fragmentation sleeve...</English>
+                <German>Splitterkörper anbringen...</German>
+            </Key>
+            <Key ID="STR_GME_AMMO_REMOVEFRAG">
+                <Original>Removing fragmentation sleeve...</Original>
+                <English>Removing fragmentation sleeve...</English>
+                <German>Splitterkörper abnehmen...</German>
+            </Key>
+            <Key ID="STR_GME_AMMO_SWAPGRANDE_CAT">
+                <Original>Grenade</Original>
+                <English>Grenade</English>
+                <German>Granate</German>
             </Key>
         </Container>
     </Package>

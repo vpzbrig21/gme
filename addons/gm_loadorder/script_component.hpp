@@ -1,5 +1,5 @@
-#define COMPONENT GM Loadorder
-#define COMPONENT_BEAUTIFIED GM Loadorder
+#define COMPONENT Loadorder
+#define COMPONENT_BEAUTIFIED Loadorder
 #include "\z\gme\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

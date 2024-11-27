@@ -3,7 +3,7 @@
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
-        units[] = {};
+        units[] = {"gm_ge_army_fuchsa0_command_pb21_base","gm_ge_army_fuchsa0_command_pb21","gm_ge_army_fuchsa0_reconnaissance_pb21_base","gm_ge_army_fuchsa0_reconnaissance_pb21","gm_ge_army_fuchsa0_engineer_pb21_base","gm_ge_army_fuchsa0_engineer_pb21","gm_ge_army_fuchsa0_engineer_pb21_tardis"};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"gme_fuchs_ge"};

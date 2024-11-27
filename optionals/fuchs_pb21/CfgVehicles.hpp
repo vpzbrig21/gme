@@ -67,7 +67,7 @@ class CfgVehicles {
 		ace_rearm_defaultSupply = 900000;
 		ace_repair_canRepair = 1;
 		ace_refuel_fuelCargo = 900000;
-		ace_refuel_hooks[] = {{-1.29302,0.739394,-1.39691},{1.20282,0.749521,-1.39192}}
+		ace_refuel_hooks[] = {{-1.29302,0.739394,-1.39691},{1.20282,0.749521,-1.39192}};
         transportRepair = 0;
 		transportAmmo = 0;
 	};
