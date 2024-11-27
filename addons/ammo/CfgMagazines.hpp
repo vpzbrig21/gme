@@ -167,4 +167,30 @@ class CfgMagazines {
         scopeCurator = 2;
         author = "Global Mobilization";
     };
+    // Steel Beast Pro
+    class gme_330Rnd_20x139mm_hei_t_dm81: gm_magazine_20x139mm_base {
+        displayName = "20 mm 330Rnd HEI-T DM81";
+        descriptionShort = "Caliber: 20x139 mm HEI-T DM81<br />Rounds: 330<br />Used in: RH202 based on SBPro";
+        displaynameshort = "HEI-T";
+        ammo = "gm_bullet_20x139mm_hei_t_dm81";
+        count = 330;
+        initSpeed = 1175;
+        tracersEvery = 1;
+        lastRoundsTracer = 1;
+        scope = 1;
+        scopeCurator = 2;
+    };
+    class gme_170Rnd_20x139mm_apds_t_dm63: gm_magazine_20x139mm_base {
+        displayName = "20 mm 170Rnd APDS-T DM63";
+        descriptionShort = "Caliber: 20x139 mm APDS-T DM63<br />Rounds: 100<br />Used in: RH202 based on SBPro";
+        displaynameshort = "APDS-T";
+        ammo = "gm_bullet_20x139mm_apds_t_dm63";
+        count = 170;
+        initSpeed = 1175;
+        tracersEvery = 1;
+        lastRoundsTracer = 1;
+        scope = 1;
+        scopeCurator = 2;
+        author = "Global Mobilization";
+    };
 };

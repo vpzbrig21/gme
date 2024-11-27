@@ -2,6 +2,7 @@ class cfgVehicles {
 	class gm_tracked_APC_base;
 	class gm_marder1_base: gm_tracked_APC_base {
 		displayName = "SPz Marder 1";
+		maximumLoad = 18000;
 		ace_refuel_fuelCapacity = 650;
         ace_refuel_canReceive = 1;
         ace_refuel_flowRate = 1;

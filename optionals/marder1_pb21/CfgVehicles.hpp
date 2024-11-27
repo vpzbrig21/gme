@@ -42,10 +42,10 @@ class CfgVehicles {
 	};
 	class gme_ge_army_marder1a2_pb21_base: gme_ge_army_marder1a2_base {
 		maximumLoad = 18000;
-		editorCategory = "pb21_EdCategory";
+		editorCategory = "gme_EdCat_PB21";
 		class Turrets: Turrets {
 			class MainTurret: MainTurret {
-				magazines[] = {"gme_400Rnd_20x139mm_hei_t_dm81","gme_400Rnd_20x139mm_hei_t_dm81","gme_100Rnd_20x139mm_apds_t_dm63","gme_100Rnd_20x139mm_apds_t_dm63","gme_100Rnd_20x139mm_apds_t_dm63","gme_100Rnd_20x139mm_apds_t_dm63","gm_500Rnd_762x51mm_b_t_DM21_mg3","gm_500Rnd_762x51mm_b_t_DM21_mg3","gm_500Rnd_762x51mm_b_t_DM21_mg3","gm_500Rnd_762x51mm_b_t_DM21_mg3"};
+				magazines[] = {"gme_330Rnd_20x139mm_hei_t_dm81","gme_330Rnd_20x139mm_hei_t_dm81","gme_330Rnd_20x139mm_hei_t_dm81","gme_330Rnd_20x139mm_hei_t_dm81","gme_330Rnd_20x139mm_hei_t_dm81","gme_330Rnd_20x139mm_hei_t_dm81","gme_170Rnd_20x139mm_apds_t_dm63","gme_170Rnd_20x139mm_apds_t_dm63","gme_170Rnd_20x139mm_apds_t_dm63","gme_170Rnd_20x139mm_apds_t_dm63","gm_500Rnd_762x51mm_b_t_DM21_mg3","gm_500Rnd_762x51mm_b_t_DM21_mg3","gm_500Rnd_762x51mm_b_t_DM21_mg3","gm_500Rnd_762x51mm_b_t_DM21_mg3","gm_500Rnd_762x51mm_b_t_DM21_mg3","gm_500Rnd_762x51mm_b_t_DM21_mg3","gm_500Rnd_762x51mm_b_t_DM21_mg3","gm_500Rnd_762x51mm_b_t_DM21_mg3"};
 				discreteDistanceInitIndex = 7;
 				class Turrets: Turrets {
 					class CommanderTurret: CommanderTurret {};
@@ -77,7 +77,7 @@ class CfgVehicles {
 	class gme_ge_army_marder1a2_pb21_a: gme_ge_army_marder1a2_pb21_base {
 		displayName = "SPz Marder 1A2 - I/2./212 A";
 		scope = 2;
-        scopeCurator = 2;
+		scopeCurator = 2;
 		gm_LicensePlateDefaultDigits = "Y-205450";
 		gm_TacticalNumbersDefaultNumber = "210";
 		gm_InsigniasDefaultFormation = "gm_insignia_formation_A_yel";

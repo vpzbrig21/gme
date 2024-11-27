@@ -10,11 +10,12 @@ class CfgAmmo {
 	};
 
 	/* Explosives */
-	class PipeBombBase;
-    class gm_explosive_petn_charge: PipeBombBase {
+	class gm_explosive_petn_base;
+    class gm_explosive_charge_petn: gm_explosive_petn_base  {
         ace_explosives_defuseObjectPosition[] = {0, 0, 0.02};
     };
-    class gm_explosive_plnp_charge: PipeBombBase {
+    class gm_explosive_plnp_base;
+    class gm_explosive_charge_plnp: gm_explosive_plnp_base {
         ace_explosives_defuseObjectPosition[] = {0, 0, 0.02};
     };
 

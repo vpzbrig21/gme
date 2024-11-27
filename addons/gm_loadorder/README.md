@@ -1,4 +1,4 @@
-gme_leopard_pb21
+gme_gm_loadorder
 ===================
 
 Adds ACE and ACRE features.

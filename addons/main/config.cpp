@@ -18,3 +18,4 @@ class CfgPatches {
 #include "CfgSettings.hpp"
 #include "CfgCategroies.hpp"
 #include "CfgVehicleInsignias.hpp"
+#include "CfgUniformDetails.hpp"

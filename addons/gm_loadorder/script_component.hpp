@@ -1,5 +1,5 @@
-#define COMPONENT leopard_pb21_hs
-#define COMPONENT_BEAUTIFIED Leopard_PB21_HS
+#define COMPONENT GM Loadorder
+#define COMPONENT_BEAUTIFIED GM Loadorder
 #include "\z\gme\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

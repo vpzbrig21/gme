@@ -5,7 +5,7 @@ class CfgVehicles {
 
 	class gm_ge_army_fuchsa0_command_pb21_base: gm_ge_army_fuchsa0_command_base {
 		maximumLoad = 18000;
-		editorCategory = "pb21_EdCategory";
+		editorCategory = "gme_EdCat_PB21";
 		gm_InsigniasDefaultUnit = "gme_units_ge_jgbtl1_col";
 		gm_TacticalSignsDefaultIcon = "gm_tacticalSign_nato_infantry";
 		gm_TacticalSignsDefaultPostIcon = "1";
@@ -23,7 +23,7 @@ class CfgVehicles {
 
 	class gm_ge_army_fuchsa0_reconnaissance_pb21_base: gm_ge_army_fuchsa0_reconnaissance_base {
 		maximumLoad = 18000;
-		editorCategory = "pb21_EdCategory";
+		editorCategory = "gme_EdCat_PB21";
 		gm_InsigniasDefaultUnit = "gme_units_ge_aufklbtl7_col";
 		gm_TacticalSignsDefaultIcon = "gm_tacticalSign_nato_recon";
 		gm_TacticalSignsDefaultPostIcon = "7";
@@ -41,7 +41,7 @@ class CfgVehicles {
 	
 	class gm_ge_army_fuchsa0_engineer_pb21_base: gm_ge_army_fuchsa0_engineer_base {
 		maximumLoad = 18000;
-		editorCategory = "pb21_EdCategory";
+		editorCategory = "gme_EdCat_PB21";
 		gm_InsigniasDefaultUnit = "gme_units_ge_versbtl7_col";
 		gm_TacticalSignsDefaultIcon = "gm_tacticalSign_nato_supply";
 		gm_TacticalSignsDefaultPostIcon = "7";
@@ -64,9 +64,10 @@ class CfgVehicles {
         scopeCurator = 2;
 		ace_cargo_hasCargo = 1;
         ace_cargo_space = 256;
-		ace_rearm_defaultSupply = 9000000;
+		ace_rearm_defaultSupply = 900000;
 		ace_repair_canRepair = 1;
-		ace_refuel_fuelCargo = 9000000;
+		ace_refuel_fuelCargo = 900000;
+		ace_refuel_hooks[] = {{-1.29302,0.739394,-1.39691},{1.20282,0.749521,-1.39192}}
         transportRepair = 0;
 		transportAmmo = 0;
 	};
