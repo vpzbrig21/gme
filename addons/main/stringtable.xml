@@ -3,14 +3,14 @@
     <Package name="gme_main">
         <Container name="general">
             <Key ID="STR_GME_MAIN_GMETEAM">
-              <Original>vPzBrig21 S4</Original>
-              <English>vPzBrig21 S4</English>
-              <German>vPzBrig21 S4</German>
+                <Original>vPzBrig21 S4</Original>
+                <English>vPzBrig21 S4</English>
+                <German>vPzBrig21 S4</German>
             </Key>
             <Key ID="STR_GME_MAIN_URL">
-              <Original>https://vpzbrig21.de</Original>
-              <English>https://vpzbrig21.de</English>
-              <German>https://vpzbrig21.de</German>
+                <Original>https://vpzbrig21.de</Original>
+                <English>https://vpzbrig21.de</English>
+                <German>https://vpzbrig21.de</German>
             </Key>
         </Container>
     </Package>

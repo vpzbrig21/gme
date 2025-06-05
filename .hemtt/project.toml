@@ -1,0 +1,30 @@
+name = "GME"
+author = "vPanzerbrigade 21 S4"
+prefix = "gme"
+mainprefix = "z"
+
+[files]
+include = [
+    "mod.cpp",
+    "READDME.md",
+    "AUTHORS.txt",
+    "LICENSE",
+    "logo_gme_ca.paa"
+]
+exclude = [
+    "*.psd",
+    "*.png",
+    "*.hpp",
+]
+
+[version]
+git_hash = 0
+
+[hemtt.config]
+preset = "Hemtt"
+
+[hemtt.launch.default]
+workshop = [
+    "450814997", # CBA_A3's Workshop ID
+    "463939057", # ACE3's Workshop ID
+]

@@ -6,13 +6,16 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"cba_main","ace_main","gm_core","gm_core_vehicles","gm_core_weapons"};
+        requiredAddons[] = {"cba_main","ace_main","ace_compat_gm","ace_compat_gm_explosives","ace_compat_gm_refuel","gme_loadorder"};
+        skipWhenMissingDependencies = 1;
         author = "ingametek";
         url = "https://github.com/vpzbrig21/gme";
         VERSION_CONFIG;
     };
 };
 
-#include "CfgMods.inc"
-#include "CfgSettings.inc"
-#include "CfgVehicleInsignias.inc"
+#include "CfgMods.hpp"
+#include "CfgSettings.hpp"
+#include "CfgCategroies.hpp"
+#include "CfgVehicleInsignias.hpp"
+#include "CfgUniformDetails.hpp"

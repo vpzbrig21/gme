@@ -126,7 +126,9 @@ $RECYCLE.BIN/
 # HEMTT Tool
 hemtt
 hemtt.exe
+hemtt-rc.exe
 .hemtt/local
+.hemttout/*
 release/*
 releases/*
 keys/*
