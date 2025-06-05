@@ -17,4 +17,11 @@ class CfgVehicles {
     class gm_fuchsa0_engineer_base: gm_fuchsa0_base {
         #include "CfgACRE_PRC117_base.hpp"
     };
+    class gm_fuchsa0_medic_base: gm_fuchsa0_base {
+        #include "CfgACRE_PRC117_base.hpp"
+    };
+    class gm_fuchsa1_base: gm_fuchs_base {};
+    class gm_fuchsa1_jammer_base: gm_fuchsa1_base {
+        #include "CfgACRE_PRC117_base.hpp"
+    };
 };
