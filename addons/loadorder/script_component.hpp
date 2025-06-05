@@ -1,4 +1,4 @@
-#define COMPONENT Loadorder
+#define COMPONENT loadorder
 #define COMPONENT_BEAUTIFIED Loadorder
 #include "\z\gme\addons\main\script_mod.hpp"
 

@@ -6,7 +6,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"cba_main","ace_main","ace_compat_gm","ace_compat_gm_explosives","ace_compat_gm_refuel","gm_loadorder"};
+        requiredAddons[] = {"cba_main","ace_main","ace_compat_gm","ace_compat_gm_explosives","ace_compat_gm_refuel","gme_loadorder"};
         skipWhenMissingDependencies = 1;
         author = "ingametek";
         url = "https://github.com/vpzbrig21/gme";
