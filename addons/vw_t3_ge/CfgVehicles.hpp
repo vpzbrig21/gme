@@ -1,4 +1,20 @@
 class CfgVehicles {
-    #include "CfgVehicles_type253.hpp"
-    #include "CfgVehicles_type247.hpp"
+    class gm_type253_patrol_base;
+    class gm_ge_army_typ253_cargo_base: gm_type253_patrol_base {
+        #include "CfgACRE_SM90_base.hpp"
+    };
+    class gm_ge_army_typ253_mp_base: gm_type253_patrol_base {
+        #include "CfgACRE_SM90_base.hpp"
+    };
+    class gm_ge_bgs_typ253_cargo_base: gm_type253_patrol_base {
+        #include "CfgACRE_SM90_base.hpp"
+    };
+    class gm_typ247_patrol_base;
+    class gm_typ247_firefighter_base: gm_typ247_patrol_base {};
+    class gm_ge_army_typ247_cargo_base: gm_typ247_patrol_base {
+        #include "CfgACRE_SM90_base.hpp"
+    };
+    class gm_ge_army_typ247_firefighter_base: gm_typ247_firefighter_base {
+        #include "CfgACRE_SM90_base.hpp"
+    };
 };
