@@ -2,6 +2,7 @@ class CfgVehicles {
 	class gm_ge_army_fuchsa0_command_base;
 	class gm_ge_army_fuchsa0_reconnaissance_base;
 	class gm_ge_army_fuchsa0_engineer_base;
+	class gm_ge_army_fuchsa0_medic_base;
 
 	class gm_ge_army_fuchsa0_command_pb21_base: gm_ge_army_fuchsa0_command_base {
 		maximumLoad = 18000;
@@ -70,5 +71,23 @@ class CfgVehicles {
 		ace_refuel_hooks[] = {{-1.29302,0.739394,-1.39691},{1.20282,0.749521,-1.39192}};
         transportRepair = 0;
 		transportAmmo = 0;
+	};
+	class gm_ge_army_fuchsa0_medic_pb21_base: gm_ge_army_fuchsa0_medic_base {
+		attendant = 1;
+		maximumLoad = 18000;
+		editorCategory = "gme_EdCat_PB21";
+		gm_InsigniasDefaultUnit = "";
+		gm_TacticalSignsDefaultIcon = "gm_tacticalSign_nato_medic";
+		gm_TacticalSignsDefaultPostIcon = "7";
+		gm_TacticalSignsDefaultPreIcon = "1";
+		class TransportWeapons {};
+		class TransportMagazines {};
+		class TransportItems {};
+		class TransportBackpacks {};
+	};
+	class gm_ge_army_fuchsa0_medic_pb21: gm_ge_army_fuchsa0_medic_pb21_base {
+		displayName = "TPz Fuchs A0 San";
+		scope = 2;
+		scopeCurator = 2;
 	};
 };
