@@ -72,21 +72,32 @@ class CfgVehicles {
         transportRepair = 0;
 		transportAmmo = 0;
 	};
+	class gm_ge_army_fuchsa0_engineer_pb21_jg: gm_ge_army_fuchsa0_engineer_pb21_base {
+		displayName = "TPz Fuchs A0 (JgBtl 1) - PzBrig21";
+		scope = 2;
+        scopeCurator = 2;
+		ace_repair_canRepair = 0;
+        transportRepair = 0;
+		gm_InsigniasDefaultUnit = "gme_units_ge_jgbtl1_col";
+		gm_TacticalSignsDefaultIcon = "gm_tacticalSign_nato_infantry";
+		gm_TacticalSignsDefaultPostIcon = "1";
+		gm_TacticalSignsDefaultPreIcon = "2";
+	};
 	class gm_ge_army_fuchsa0_medic_pb21_base: gm_ge_army_fuchsa0_medic_base {
 		attendant = 1;
 		maximumLoad = 18000;
 		editorCategory = "gme_EdCat_PB21";
-		gm_InsigniasDefaultUnit = "";
+		gm_InsigniasDefaultUnit = "gme_units_ge_sanbtl5_col";
 		gm_TacticalSignsDefaultIcon = "gm_tacticalSign_nato_medic";
-		gm_TacticalSignsDefaultPostIcon = "7";
-		gm_TacticalSignsDefaultPreIcon = "1";
+		gm_TacticalSignsDefaultPostIcon = "5";
+		gm_TacticalSignsDefaultPreIcon = "2";
 		class TransportWeapons {};
 		class TransportMagazines {};
 		class TransportItems {};
 		class TransportBackpacks {};
 	};
 	class gm_ge_army_fuchsa0_medic_pb21: gm_ge_army_fuchsa0_medic_pb21_base {
-		displayName = "TPz Fuchs A0 San";
+		displayName = "TPz Fuchs A0 SanBtl 5 (Rennerod)";
 		scope = 2;
 		scopeCurator = 2;
 	};

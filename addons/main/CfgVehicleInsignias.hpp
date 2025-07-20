@@ -87,6 +87,13 @@ class gm_VehicleInsignias_Unit: gm_VehicleInsignias_base {
 		value = "gme_units_ge_pzlehrbtl93_col";
 		picture = "z\gme\addons\main\data\systems\vehicleMarkings\insignias\crest\gme_ge_pzlehrbtl93_col_ca.paa";
 	};
+	class gme_units_ge_sanbtl5_col {
+		name = "SanBtl 5";
+		author = "ingametek";
+		texture = "z\gme\addons\main\data\systems\vehicleMarkings\insignias\crest\gme_ge_sanbtl5_col_ca.paa";
+		value = "gme_units_ge_sanbtl5_col";
+		picture = "z\gme\addons\main\data\systems\vehicleMarkings\insignias\crest\gme_ge_sanbtl5_col_ca.paa";
+	};
 
 	/* Arma Units */
 	class gme_units_a3_vpzbrig21_col {
