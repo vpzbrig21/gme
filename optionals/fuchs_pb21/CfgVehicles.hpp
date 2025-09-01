@@ -88,7 +88,7 @@ class CfgVehicles {
 		maximumLoad = 18000;
 		editorCategory = "gme_EdCat_PB21";
 		gm_InsigniasDefaultUnit = "gme_units_ge_sanbtl5_col";
-		gm_TacticalSignsDefaultIcon = "gm_tacticalSign_nato_medic";
+		gm_TacticalSignsDefaultIcon = "gm_tacticalSign_nato_medical";
 		gm_TacticalSignsDefaultPostIcon = "5";
 		gm_TacticalSignsDefaultPreIcon = "2";
 		class TransportWeapons {};

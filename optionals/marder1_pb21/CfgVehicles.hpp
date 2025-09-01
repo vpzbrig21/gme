@@ -78,7 +78,7 @@ class CfgVehicles {
 		displayName = "SPz Marder 1A2 - I/2./212 A";
 		scope = 2;
 		scopeCurator = 2;
-		gm_LicensePlateDefaultDigits = "Y-205450";
+		gm_LicensePlateDefaultDigits = "Y205450";
 		gm_TacticalNumbersDefaultNumber = "210";
 		gm_InsigniasDefaultFormation = "gm_insignia_formation_A_yel";
 	};
@@ -86,7 +86,7 @@ class CfgVehicles {
 		displayName = "SPz Marder 1A2 - I/2./212 A1";
 		scope = 2;
         scopeCurator = 2;
-		gm_LicensePlateDefaultDigits = "Y-219938";
+		gm_LicensePlateDefaultDigits = "Y219938";
 		gm_TacticalNumbersDefaultNumber = "211";
 		gm_InsigniasDefaultFormation = "gm_insignia_formation_A1_yel";
 	};
@@ -94,7 +94,7 @@ class CfgVehicles {
 		displayName = "SPz Marder 1A2 - I/2./212 A2";
 		scope = 2;
         scopeCurator = 2;
-		gm_LicensePlateDefaultDigits = "Y-222592";
+		gm_LicensePlateDefaultDigits = "Y222592";
 		gm_TacticalNumbersDefaultNumber = "212";
 		gm_InsigniasDefaultFormation = "gm_insignia_formation_A2_yel";
 	};
@@ -102,7 +102,7 @@ class CfgVehicles {
 		displayName = "SPz Marder 1A2 - I/2./212 A3";
 		scope = 2;
         scopeCurator = 2;
-		gm_LicensePlateDefaultDigits = "Y-227205";
+		gm_LicensePlateDefaultDigits = "Y227205";
 		gm_TacticalNumbersDefaultNumber = "213";
 		gm_InsigniasDefaultFormation = "gm_insignia_formation_A3_yel";
 	};
@@ -112,7 +112,7 @@ class CfgVehicles {
 		displayName = "SPz Marder 1A2 - II/2./212 B";
 		scope = 2;
         scopeCurator = 2;
-		gm_LicensePlateDefaultDigits = "Y-268725";
+		gm_LicensePlateDefaultDigits = "Y268725";
 		gm_TacticalNumbersDefaultNumber = "220";
 		gm_InsigniasDefaultFormation = "gm_insignia_formation_B_yel";
 	};
@@ -120,7 +120,7 @@ class CfgVehicles {
 		displayName = "SPz Marder 1A2 - II/2./212 B1";
 		scope = 2;
         scopeCurator = 2;
-		gm_LicensePlateDefaultDigits = "Y-273472";
+		gm_LicensePlateDefaultDigits = "Y273472";
 		gm_TacticalNumbersDefaultNumber = "221";
 		gm_InsigniasDefaultFormation = "gm_insignia_formation_B1_yel";
 	};
@@ -128,7 +128,7 @@ class CfgVehicles {
 		displayName = "SPz Marder 1A2 - II/2./212 B2";
 		scope = 2;
         scopeCurator = 2;
-		gm_LicensePlateDefaultDigits = "Y-210108";
+		gm_LicensePlateDefaultDigits = "Y210108";
 		gm_TacticalNumbersDefaultNumber = "222";
 		gm_InsigniasDefaultFormation = "gm_insignia_formation_B2_yel";
 	};
@@ -136,7 +136,7 @@ class CfgVehicles {
 		displayName = "SPz Marder 1A2 - II/2./212 B3";
 		scope = 2;
         scopeCurator = 2;
-		gm_LicensePlateDefaultDigits = "Y-243220";
+		gm_LicensePlateDefaultDigits = "Y243220";
 		gm_TacticalNumbersDefaultNumber = "223";
 		gm_InsigniasDefaultFormation = "gm_insignia_formation_B3_yel";
 	};
@@ -146,7 +146,7 @@ class CfgVehicles {
 		displayName = "SPz Marder 1A2 - III/2./212 C";
 		scope = 2;
         scopeCurator = 2;
-		gm_LicensePlateDefaultDigits = "Y-247174";
+		gm_LicensePlateDefaultDigits = "Y247174";
 		gm_TacticalNumbersDefaultNumber = "230";
 		gm_InsigniasDefaultFormation = "gm_insignia_formation_C_yel";
 	};
@@ -154,7 +154,7 @@ class CfgVehicles {
 		displayName = "SPz Marder 1A2 - III/2./212 C1";
 		scope = 2;
         scopeCurator = 2;
-		gm_LicensePlateDefaultDigits = "Y-268582";
+		gm_LicensePlateDefaultDigits = "Y268582";
 		gm_TacticalNumbersDefaultNumber = "231";
 		gm_InsigniasDefaultFormation = "gm_insignia_formation_C1_yel";
 	};
@@ -162,7 +162,7 @@ class CfgVehicles {
 		displayName = "SPz Marder 1A2 - III/2./212 C2";
 		scope = 2;
         scopeCurator = 2;
-		gm_LicensePlateDefaultDigits = "Y-285399";
+		gm_LicensePlateDefaultDigits = "Y285399";
 		gm_TacticalNumbersDefaultNumber = "232";
 		gm_InsigniasDefaultFormation = "gm_insignia_formation_C2_yel";
 	};
@@ -170,8 +170,42 @@ class CfgVehicles {
 		displayName = "SPz Marder 1A2 - III/2./212 C3";
 		scope = 2;
         scopeCurator = 2;
-		gm_LicensePlateDefaultDigits = "Y-286880";
+		gm_LicensePlateDefaultDigits = "Y286880";
 		gm_TacticalNumbersDefaultNumber = "233";
 		gm_InsigniasDefaultFormation = "gm_insignia_formation_C3_yel";
+	};
+	// Ausbildungs Kompanie
+	// TODO: Add Custom Plates
+	class gme_ge_army_marder1a2_pb21_5kp_a: gme_ge_army_marder1a2_pb21_base {
+		displayName = "SPz Marder 1A2 - I/5./212 A";
+		scope = 2;
+		scopeCurator = 2;
+		gm_LicensePlateDefaultDigits = "Y220602";
+		gm_TacticalNumbersDefaultNumber = "510";
+		gm_InsigniasDefaultFormation = "gm_insignia_formation_A_wht";
+	};
+	class gme_ge_army_marder1a2_pb21_5kp_a1: gme_ge_army_marder1a2_pb21_base {
+		displayName = "SPz Marder 1A2 - I/5./212 A1";
+		scope = 2;
+		scopeCurator = 2;
+		gm_LicensePlateDefaultDigits = "Y220817";
+		gm_TacticalNumbersDefaultNumber = "511";
+		gm_InsigniasDefaultFormation = "gm_insignia_formation_A1_wht";
+	};
+	class gme_ge_army_marder1a2_pb21_5kp_a2: gme_ge_army_marder1a2_pb21_base {
+		displayName = "SPz Marder 1A2 - I/5./212 A2";
+		scope = 2;
+		scopeCurator = 2;
+		gm_LicensePlateDefaultDigits = "Y240160";
+		gm_TacticalNumbersDefaultNumber = "512";
+		gm_InsigniasDefaultFormation = "gm_insignia_formation_A2_wht";
+	};
+	class gme_ge_army_marder1a2_pb21_5kp_a3: gme_ge_army_marder1a2_pb21_base {
+		displayName = "SPz Marder 1A2 - I/5./212 A3";
+		scope = 2;
+		scopeCurator = 2;
+		gm_LicensePlateDefaultDigits = "Y245377";
+		gm_TacticalNumbersDefaultNumber = "513";
+		gm_InsigniasDefaultFormation = "gm_insignia_formation_A3_wht";
 	};
 };
