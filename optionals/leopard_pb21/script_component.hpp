@@ -1,5 +1,5 @@
 #define COMPONENT leopard_pb21
-#define COMPONENT_BEAUTIFIED Leopard_PB21
+#define COMPONENT_BEAUTIFIED Leopard PB21
 #include "\z\gme\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

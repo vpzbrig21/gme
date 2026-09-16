@@ -46,13 +46,13 @@ class CfgVehicles {
                         statement = "_target animateSource ['camonet_hull_unhide',0]";
                     };
                     class gme_camofoilage_show {
-                        displayName = ECSTRING(core,CamoFoilageShow);
+                        displayName = ECSTRING(core,CamoFoliageShow);
                         radius = 4;
                         condition = "_target animationSourcePhase 'camofoilage_hull_unhide' == 0 && _target animationSourcePhase 'camonet_hull_unhide' == 1";
                         statement = "_target animateSource ['camofoilage_hull_unhide',1]";
                     };
                     class gme_camofoilage_hide: gme_camofoilage_show {
-                        displayName = ECSTRING(core,CamoFoilageHide);
+                        displayName = ECSTRING(core,CamoFoliageHide);
                         condition = "_target animationSourcePhase 'camofoilage_hull_unhide' == 1";
                         statement = "_target animateSource ['camofoilage_hull_unhide',0]";
                     };
@@ -81,13 +81,13 @@ class CfgVehicles {
                         statement = "_target animateSource ['camonet_hull_unhide',0]";
                     };
                     class gme_camofoilage_show {
-                        displayName = ECSTRING(core,CamoFoilageShow);
+                        displayName = ECSTRING(core,CamoFoliageShow);
                         radius = 4;
                         condition = "_target animationSourcePhase 'camofoilage_hull_unhide' == 0 && _target animationSourcePhase 'camonet_hull_unhide' == 1";
                         statement = "_target animateSource ['camofoilage_hull_unhide',1]";
                     };
                     class gme_camofoilage_hide: gme_camofoilage_show {
-                        displayName = ECSTRING(core,CamoFoilageHide);
+                        displayName = ECSTRING(core,CamoFoliageHide);
                         condition = "_target animationSourcePhase 'camofoilage_hull_unhide' == 1";
                         statement = "_target animateSource ['camofoilage_hull_unhide',0]";
                     };
@@ -116,13 +116,13 @@ class CfgVehicles {
                         statement = "_target animateSource ['camonet_hull_unhide',0]";
                     };
                     class gme_camofoilage_show {
-                        displayName = ECSTRING(core,CamoFoilageShow);
+                        displayName = ECSTRING(core,CamoFoliageShow);
                         radius = 4;
                         condition = "_target animationSourcePhase 'camofoilage_hull_unhide' == 0 && _target animationSourcePhase 'camonet_hull_unhide' == 1";
                         statement = "_target animateSource ['camofoilage_hull_unhide',1]";
                     };
                     class gme_camofoilage_hide: gme_camofoilage_show {
-                        displayName = ECSTRING(core,CamoFoilageHide);
+                        displayName = ECSTRING(core,CamoFoliageHide);
                         condition = "_target animationSourcePhase 'camofoilage_hull_unhide' == 1";
                         statement = "_target animateSource ['camofoilage_hull_unhide',0]";
                     };
@@ -151,13 +151,13 @@ class CfgVehicles {
                         statement = "_target animateSource ['camonet_hull_unhide',0]";
                     };
                     class gme_camofoilage_show {
-                        displayName = ECSTRING(core,CamoFoilageShow);
+                        displayName = ECSTRING(core,CamoFoliageShow);
                         radius = 4;
                         condition = "_target animationSourcePhase 'camofoilage_hull_unhide' == 0 && _target animationSourcePhase 'camonet_hull_unhide' == 1";
                         statement = "_target animateSource ['camofoilage_hull_unhide',1]";
                     };
                     class gme_camofoilage_hide: gme_camofoilage_show {
-                        displayName = ECSTRING(core,CamoFoilageHide);
+                        displayName = ECSTRING(core,CamoFoliageHide);
                         condition = "_target animationSourcePhase 'camofoilage_hull_unhide' == 1";
                         statement = "_target animateSource ['camofoilage_hull_unhide',0]";
                     };
@@ -191,13 +191,13 @@ class CfgVehicles {
                         statement = "_target animateSource ['camonet_hull_unhide',0]";
                     };
                     class gme_camofoilage_show {
-                        displayName = ECSTRING(core,CamoFoilageShow);
+                        displayName = ECSTRING(core,CamoFoliageShow);
                         radius = 4;
                         condition = "_target animationSourcePhase 'camofoilage_hull_unhide' == 0 && _target animationSourcePhase 'camonet_hull_unhide' == 1";
                         statement = "_target animateSource ['camofoilage_hull_unhide',1]";
                     };
                     class gme_camofoilage_hide: gme_camofoilage_show {
-                        displayName = ECSTRING(core,CamoFoilageHide);
+                        displayName = ECSTRING(core,CamoFoliageHide);
                         condition = "_target animationSourcePhase 'camofoilage_hull_unhide' == 1";
                         statement = "_target animateSource ['camofoilage_hull_unhide',0]";
                     };

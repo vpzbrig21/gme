@@ -1,1 +1,1 @@
-#include "\z\gme\addons\bo105\script_component.hpp"
+#include "\z\gme\addons\ch53\script_component.hpp"

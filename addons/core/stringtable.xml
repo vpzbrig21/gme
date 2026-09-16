@@ -1,7 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="Global Mobilization Enhancement">
     <Package name="gme_core">
+        <Container name="fuchs">
+            <Key ID="STR_GME_CORE_ANTENNADOWN">
+                <Original>Antenna down</Original>
+                <English>Antenna down</English>
+                <German>Antenne einfahren</German>
+            </Key>
+            <Key ID="STR_GME_CORE_ANTENNAUP">
+                <Original>Antenna Up</Original>
+                <English>Antenna Up</English>
+                <German>Antenne ausfahren</German>
+            </Key>
+            <Key ID="STR_GME_CORE_CAMONETHIDE">
+                <Original>Remove camonet</Original>
+                <English>Remove camonet</English>
+                <German>Tarnnetz entfernen</German>
+            </Key>
+            <Key ID="STR_GME_CORE_CAMONETSHOW">
+                <Original>Add camonet</Original>
+                <English>Add camonet</English>
+                <German>Tarnnetz anbringen</German>
+            </Key>
+            <Key ID="STR_GME_CORE_CAMOfoliageHIDE">
+                <Original>Remove foliage</Original>
+                <English>Remove foliage</English>
+                <German>Tarnmaterial entfernen</German>
+            </Key>
+            <Key ID="STR_GME_CORE_CAMOfoliageSHOW">
+                <Original>Add foliage</Original>
+                <English>Add foliage</English>
+                <German>Tarnmaterial anbringen</German>
+            </Key>
+            <Key ID="STR_GME_CORE_FUCHSCAMO">
+                <Original>Camo</Original>
+                <English>Camo</English>
+                <German>Tarnung</German>
+            </Key>
+        </Container>
         <Container name="general">
+            <Key ID="STR_GME_CORE_Camo">
+                <Original>Camo</Original>
+                <English>Camo</English>
+                <German>Tarnung</German>
+            </Key>
+            <Key ID="STR_GME_CORE_CamoFoliageHullHide">
+                <Original>Remove foliage hull</Original>
+                <English>Remove foliage hull</English>
+                <German>Tarnmaterial Wanne entfernen</German>
+            </Key>
+            <Key ID="STR_GME_CORE_CamoFoliageHullShow">
+                <Original>Add foliage hull</Original>
+                <English>Add foliage hull</English>
+                <German>Tarnmaterial Wanne anbringen</German>
+            </Key>
+            <Key ID="STR_GME_CORE_CamoFoliageTurretHide">
+                <Original>Remove foliage turret</Original>
+                <English>Remove foliage turret</English>
+                <German>Tarnmaterial Turm entfernen</German>
+            </Key>
+            <Key ID="STR_GME_CORE_CamoFoliageTurretShow">
+                <Original>Add foliage turret</Original>
+                <English>Add foliage turret</English>
+                <German>Tarnmaterial Turm anbringen</German>
+            </Key>
+            <Key ID="STR_GME_CORE_CamoNetHullHide">
+                <Original>Remove camonet hull</Original>
+                <English>Remove camonet hull</English>
+                <German>Tarnnetz Wanne entfernen</German>
+            </Key>
+            <Key ID="STR_GME_CORE_CamoNetHullShow">
+                <Original>Add camonet hull</Original>
+                <English>Add camonet hull</English>
+                <German>Tarnnetz Wanne anbringen</German>
+            </Key>
+            <Key ID="STR_GME_CORE_CamoNetTurretHide">
+                <Original>Remove camonet turret</Original>
+                <English>Remove camonet turret</English>
+                <German>Tarnnetz Turm entfernen</German>
+            </Key>
+            <Key ID="STR_GME_CORE_CamoNetTurretShow">
+                <Original>Add camonet turret</Original>
+                <English>Add camonet turret</English>
+                <German>Tarnnetz Turm anbringen</German>
+            </Key>
             <Key ID="STR_GME_CORE_MIRRORDOWN">
                 <Original>Mirror down</Original>
                 <English>Mirror down</English>
@@ -21,88 +103,6 @@
                 <Original>Open tailgate</Original>
                 <English>Open tailgate</English>
                 <German>Heckklappe öffnen</German>
-            </Key>
-            <Key ID="STR_GME_CORE_Camo">
-                <Original>Camo</Original>
-                <English>Camo</English>
-                <German>Tarnung</German>
-            </Key>
-            <Key ID="STR_GME_CORE_CamoNetHullShow">
-                <Original>Add camonet hull</Original>
-                <English>Add camonet hull</English>
-                <German>Tarnnetz Wanne anbringen</German>
-            </Key>
-            <Key ID="STR_GME_CORE_CamoNetHullHide">
-                <Original>Remove camonet hull</Original>
-                <English>Remove camonet hull</English>
-                <German>Tarnnetz Wanne entfernen</German>
-            </Key>
-            <Key ID="STR_GME_CORE_CamoNetTurretShow">
-                <Original>Add camonet turret</Original>
-                <English>Add camonet turret</English>
-                <German>Tarnnetz Turm anbringen</German>
-            </Key>
-            <Key ID="STR_GME_CORE_CamoNetTurretHide">
-                <Original>Remove camonet turret</Original>
-                <English>Remove camonet turret</English>
-                <German>Tarnnetz Turm entfernen</German>
-            </Key>
-            <Key ID="STR_GME_CORE_CamofoliageHullShow">
-                <Original>Add foliage hull</Original>
-                <English>Add foliage hull</English>
-                <German>Tarnmaterial Wanne anbringen</German>
-            </Key>
-            <Key ID="STR_GME_CORE_CamofoliageHullHide">
-                <Original>Remove foliage hull</Original>
-                <English>Remove foliage hull</English>
-                <German>Tarnmaterial Wanne entfernen</German>
-            </Key>
-            <Key ID="STR_GME_CORE_CamofoliageTurretShow">
-                <Original>Add foliage turret</Original>
-                <English>Add foliage turret</English>
-                <German>Tarnmaterial Turm anbringen</German>
-            </Key>
-            <Key ID="STR_GME_CORE_CamofoliageTurretHide">
-                <Original>Remove foliage turret</Original>
-                <English>Remove foliage turret</English>
-                <German>Tarnmaterial Turm entfernen</German>
-            </Key>
-        </Container>
-        <Container name="fuchs">
-            <Key ID="STR_GME_CORE_ANTENNAUP">
-                <Original>Antenna Up</Original>
-                <English>Antenna Up</English>
-                <German>Antenne ausfahren</German>
-            </Key>
-            <Key ID="STR_GME_CORE_ANTENNADOWN">
-                <Original>Antenna down</Original>
-                <English>Antenna down</English>
-                <German>Antenne einfahren</German>
-            </Key>
-            <Key ID="STR_GME_CORE_FUCHSCAMO">
-                <Original>Camo</Original>
-                <English>Camo</English>
-                <German>Tarnung</German>
-            </Key>
-            <Key ID="STR_GME_CORE_CAMONETSHOW">
-                <Original>Add camonet</Original>
-                <English>Add camonet</English>
-                <German>Tarnnetz anbringen</German>
-            </Key>
-            <Key ID="STR_GME_CORE_CAMONETHIDE">
-                <Original>Remove camonet</Original>
-                <English>Remove camonet</English>
-                <German>Tarnnetz entfernen</German>
-            </Key>
-            <Key ID="STR_GME_CORE_CAMOfoliageSHOW">
-                <Original>Add foliage</Original>
-                <English>Add foliage</English>
-                <German>Tarnmaterial anbringen</German>
-            </Key>
-            <Key ID="STR_GME_CORE_CAMOfoliageHIDE">
-                <Original>Remove foliage</Original>
-                <English>Remove foliage</English>
-                <German>Tarnmaterial entfernen</German>
             </Key>
         </Container>
     </Package>

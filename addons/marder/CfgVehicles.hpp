@@ -90,24 +90,24 @@ class cfgVehicles {
                         statement = "_target animateSource ['camonet_MainTurret_trav_unhide',0]";
                     };
                     class gme_camofoilagehull_show {
-                        displayName = ECSTRING(core,CamoFoilageHullShow);
+                        displayName = ECSTRING(core,CamoFoliageHullShow);
                         radius = 4;
                         condition = "_target animationSourcePhase 'camofoilage_hull_unhide' == 0 && _target animationSourcePhase 'camonet_hull_unhide' == 1";
                         statement = "_target animateSource ['camofoilage_hull_unhide',1]";
                     };
                     class gme_camofoilagehull_hide: gme_camofoilagehull_show {
-                        displayName = ECSTRING(core,CamoFoilageHullHide);
+                        displayName = ECSTRING(core,CamoFoliageHullHide);
                         condition = "_target animationSourcePhase 'camofoilage_hull_unhide' == 1";
                         statement = "_target animateSource ['camofoilage_hull_unhide',0]";
                     };
 					class gme_camofoilageturret_show {
-                        displayName = ECSTRING(core,CamoFoilageTurretShow);
+                        displayName = ECSTRING(core,CamoFoliageTurretShow);
                         radius = 4;
                         condition = "_target animationSourcePhase 'camofoilage_MainTurret_trav_unhide' == 0 && _target animationSourcePhase 'camonet_MainTurret_trav_unhide' == 1";
                         statement = "_target animateSource ['camofoilage_MainTurret_trav_unhide',1]";
                     };
                     class gme_camofoilageturret_hide: gme_camofoilageturret_show {
-                        displayName = ECSTRING(core,CamoFoilageTurretHide);
+                        displayName = ECSTRING(core,CamoFoliageTurretHide);
                         condition = "_target animationSourcePhase 'camofoilage_MainTurret_trav_unhide' == 1";
                         statement = "_target animateSource ['camofoilage_MainTurret_trav_unhide',0]";
                     };
